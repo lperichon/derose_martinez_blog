@@ -46,7 +46,7 @@
                    
                 </div>
 <script type="text/javascript">
-$.getJSON("http://twitter.com/statuses/user_timeline/twentyeleven.json", function(data) {
+$.getJSON("http://twitter.com/statuses/user_timeline/swasthyaMTZ.json", function(data) {
      $("#tweet").html(data[0].text);
 });
 </script>
