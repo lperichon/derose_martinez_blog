@@ -1213,6 +1213,15 @@ blockquote.pull {
 	margin: 0;
 }
 
+/* =Newsletter
+----------------------------------------------- */
+
+.format-newsletter iframe {
+	width: 100%;
+}
+
+.format-newsletter .entry-content {
+	width: 650px;
 
 /* =Image
 ----------------------------------------------- */
