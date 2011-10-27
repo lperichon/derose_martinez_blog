@@ -1131,7 +1131,7 @@ blockquote.pull {
 
 
 /* =Aside
------------------------------------------------ */
+-----------------------------------------------
 
 .format-aside .entry-title,
 .format-aside .entry-header .comments-link {
@@ -1146,7 +1146,17 @@ blockquote.pull {
 .singular .format-aside .entry-content {
 	padding: 1.625em 0 0;
 }
+*/
 
+/* =Newsletter
+----------------------------------------------- */
+
+.format-aside iframe {
+	width: 100%;
+}
+
+.format-aside .entry-content {
+	width: 650px;
 
 /* =Link
 ----------------------------------------------- */
@@ -1212,16 +1222,6 @@ blockquote.pull {
 	font-size: 17px;
 	margin: 0;
 }
-
-/* =Newsletter
------------------------------------------------ */
-
-.format-newsletter iframe {
-	width: 100%;
-}
-
-.format-newsletter .entry-content {
-	width: 650px;
 
 /* =Image
 ----------------------------------------------- */
