@@ -76,6 +76,8 @@
           </h1>
         </a>
         <ul class="menu top-right proxima-nova-condensed">
+        	
+        	<?php wp_nav_menu( array('location' => 'primary', 'container' => false, 'items_wrap' => '%3$s' ) ); ?>
             <li><a href="http://yogaenmartinez.com.ar/images/horarios.png" id="horarios_lightbox_link">Horarios</a></li>
             <li><a href="http://yogaenmartinez.com.ar">Volver al sitio</a></li>
   		</ul>
