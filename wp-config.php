@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-/* define('DB_NAME', 'dep45dg8s6f'); PRODUCTION */
-define('DB_NAME', 'derose_martinez_blog');
+define('DB_NAME', 'dep45dg8s6f');
+/* define('DB_NAME', 'derose_martinez_blog');*/
 
 /** MySQL database username */
-/* define('DB_USER', 'dep45dg8s6f'); PRODUCTION */
-define('DB_USER', 'root');
+define('DB_USER', 'dep45dg8s6f');
+/* define('DB_USER', 'root');*/
 
 /** MySQL database password */
-/* define('DB_PASSWORD', 'SV8PqHZ38ezmsxC'); PRODUCTION */
-define('DB_PASSWORD', 'password');
+define('DB_PASSWORD', 'SV8PqHZ38ezmsxC');
+/* define('DB_PASSWORD', 'password');*/
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
