@@ -1,0 +1,1912 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ShaShin Spanish\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/shashin\n"
+"POT-Creation-Date: 2011-11-28 18:57:16+00:00\n"
+"PO-Revision-Date: 2012-02-02 17:39-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: start.php:28
+msgid "To activate Shashin you need to first install"
+msgstr ""
+
+#: start.php:34
+msgid "You must have at least PHP 5.1.2 to use Shashin"
+msgstr ""
+
+#: start.php:38
+msgid "You must have at least WordPress 3.0 to use Shashin"
+msgstr ""
+
+#: uninstall.php:16
+msgid "Uninstall failed: "
+msgstr "Falló la desinstalación:"
+
+#: Public/ShashinLayoutManager.php:102
+msgid "No photos found for specified shortcode"
+msgstr ""
+
+#: Public/ShashinLayoutManager.php:220
+#: Admin/Display/mediaPhotos.php:170
+msgid "Previous"
+msgstr "Anterior"
+
+#: Public/ShashinLayoutManager.php:233
+msgid "Return"
+msgstr "Retornar"
+
+#: Public/ShashinLayoutManager.php:242
+#: Admin/Display/mediaPhotos.php:172
+msgid "Next"
+msgstr "Siguiente"
+
+#: Public/ShashinPhotoDisplayer.php:79
+msgid "View at"
+msgstr ""
+
+#: Public/ShashinPhotoDisplayerTwitpic.php:42
+msgid "Unrecognized actualExpandedSize"
+msgstr ""
+
+#: Public/ShashinShortcode.php:45
+msgid "Invalid data property __get for: "
+msgstr ""
+
+#: Public/ShashinShortcode.php:69
+msgid "Invalid shortcode attribute: "
+msgstr ""
+
+#: Public/ShashinShortcode.php:94
+msgid " is not a valid value for: "
+msgstr ""
+
+#: Public/ShashinShortcode.php:103
+msgid "is not a valid string of numbers"
+msgstr ""
+
+#: Public/ShashinShortcode.php:119
+msgid "is not a valid numeric value"
+msgstr ""
+
+#: Public/ShashinShortcode.php:124
+msgid "\"size\" and \"columns\" can not both me \"max\""
+msgstr ""
+
+#: Public/ShashinAlbumDisplayer.php:85
+#: Admin/Display/mediaAlbums.php:49
+#: Admin/ShashinMediaMenu.php:76
+msgid "Photos"
+msgstr "Fotos"
+
+#: Public/ShashinDataObjectDisplayer.php:134
+msgid "invalid size requested"
+msgstr ""
+
+#: Lib/ShashinAlbumPhotosCollection.php:22
+msgid "\"title\" is not allowed for ordering with type=albumphotos"
+msgstr ""
+
+#: Lib/ShashinAlbumPhotosCollection.php:25
+msgid "\"location\" is not allowed for ordering with type=albumphotos"
+msgstr ""
+
+#: Lib/ShashinAlbumPhotosCollection.php:28
+msgid "\"count\" is not allowed for ordering with type=albumphotos"
+msgstr ""
+
+#: Lib/ShashinAlbumPhotosCollection.php:31
+msgid "\"sync\" is not allowed for ordering with type=albumphotos"
+msgstr ""
+
+#: Lib/ShashinAlbumPhotosCollection.php:40
+msgid "\"user\" is not allowed for ordering with type=albumphotos"
+msgstr ""
+
+#: Lib/ShashinAlbumCollection.php:16
+msgid "\"uploaded\" is not allowed for ordering albums"
+msgstr ""
+
+#: Lib/ShashinAlbumCollection.php:19
+msgid "\"filename\" is not allowed for ordering albums"
+msgstr ""
+
+#: Lib/ShashinAlbumCollection.php:37
+msgid "\"source\" is not allowed for ordering albums"
+msgstr ""
+
+#: Lib/ShashinPhotoCollection.php:22
+msgid "\"title\" is not allowed for ordering photos"
+msgstr ""
+
+#: Lib/ShashinPhotoCollection.php:25
+msgid "\"location\" is not allowed for ordering photos"
+msgstr ""
+
+#: Lib/ShashinPhotoCollection.php:28
+msgid "\"count\" is not allowed for ordering photos"
+msgstr ""
+
+#: Lib/ShashinPhotoCollection.php:31
+msgid "\"sync\" is not allowed for ordering photos"
+msgstr ""
+
+#: Lib/ShashinDataObject.php:28
+#: Lib/ShashinSettings.php:26
+msgid "Invalid data property __get for "
+msgstr ""
+
+#: Lib/ShashinDataObject.php:37
+msgid "Invalid data property __set for "
+msgstr ""
+
+#: Lib/ShashinPhoto.php:20
+msgid "Invalid photo key"
+msgstr ""
+
+#: Lib/ShashinPhoto.php:27
+msgid "Failed to find database record for photo"
+msgstr ""
+
+#: Lib/ShashinAlbum.php:28
+#, fuzzy
+msgid "Invalid album key"
+msgstr "El ID proporcionado para el álbum no es válido"
+
+#: Lib/ShashinAlbum.php:35
+msgid "Failed to find database record for album"
+msgstr "No se pudo encontrar un registro en la base de datos para el album"
+
+#: Lib/ShashinSettings.php:58
+msgid "Failed to delete settings"
+msgstr "No se han podido eliminar los datos del usuario."
+
+#: Admin/ShashinMenuDisplayerAlbums.php:32
+msgid "Are you sure you want to delete this album? Any shashin tags for displaying this album will be permanently broken"
+msgstr ""
+
+#: Admin/ShashinMenuDisplayerAlbums.php:47
+msgid "Sync All"
+msgstr "Sincronizar todo"
+
+#: Admin/ShashinMenuActionHandlerPhotos.php:56
+#: Admin/ShashinMenuActionHandlerAlbums.php:145
+msgid "Updated \"Include In Random\" settings"
+msgstr ""
+
+#: Admin/ShashinUpgradeWp.php:53
+msgid "Shashin upgrade is needed, but is not possible because the Shashin 2 Picasa server settings are missing. Please re-install Shashin 2 before upgrading to Shashin 3"
+msgstr ""
+
+#: Admin/ShashinUpgradeWp.php:104
+msgid "Shashin album table not in correct state for upgrade"
+msgstr ""
+
+#: Admin/Display/toolsPhotos.php:5
+#: Admin/Display/toolsAlbums.php:6
+msgid "Manage Shashin Albums"
+msgstr ""
+
+#: Admin/Display/toolsPhotos.php:13
+#, fuzzy
+msgid "Return to Albums Menu"
+msgstr "Volver a la galería de imágenes"
+
+#: Admin/Display/toolsPhotos.php:15
+msgid "Photos for Album: "
+msgstr ""
+
+#: Admin/Display/toolsPhotos.php:24
+#: Admin/ShashinWidgetWp.php:115
+msgid "Source Order"
+msgstr "Orden de Clasificación"
+
+#: Admin/Display/toolsPhotos.php:27
+#, fuzzy
+msgid "Photo ID"
+msgstr "ID de la foto"
+
+#: Admin/Display/toolsPhotos.php:30
+#: Admin/Display/mediaPhotos.php:156
+#: Admin/ShashinWidgetWp.php:116
+#: Admin/ShashinSettingsMenu.php:142
+msgid "Filename"
+msgstr "Nombre del archivo"
+
+#: Admin/Display/toolsPhotos.php:33
+#: Admin/Display/mediaPhotos.php:154
+msgid "Date Taken"
+msgstr "Fecha de realización"
+
+#: Admin/Display/toolsPhotos.php:35
+#: Admin/Display/toolsAlbums.php:44
+msgid "Include in Random?"
+msgstr "¿Incluir en aleatorias?"
+
+#: Admin/Display/toolsPhotos.php:63
+#: Admin/Display/toolsAlbums.php:83
+msgid "Update Random Display"
+msgstr "Actualizar la vista aleatoria"
+
+#: Admin/Display/settings.php:6
+msgid "Shashin"
+msgstr "Shashin"
+
+#: Admin/Display/settings.php:34
+msgid "Save Settings"
+msgstr "Guardar configuraciones"
+
+#: Admin/Display/mediaPhotos.php:104
+msgid "No photos selected"
+msgstr "No se seleccionaron fotos."
+
+#: Admin/Display/mediaPhotos.php:143
+msgid "Album"
+msgstr "Álbum"
+
+#: Admin/Display/mediaPhotos.php:145
+msgid "All albums"
+msgstr "Todos los álbumes"
+
+#: Admin/Display/mediaPhotos.php:152
+#: Admin/Display/mediaAlbums.php:99
+msgid "Order"
+msgstr "Orden"
+
+#: Admin/Display/mediaPhotos.php:155
+msgid "Shashin ID"
+msgstr "ID de Shashin"
+
+#: Admin/Display/mediaPhotos.php:157
+msgid "Source order"
+msgstr "Orden de clasificación"
+
+#: Admin/Display/mediaPhotos.php:161
+msgid "Reverse<br />order?"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:166
+msgid "Update"
+msgstr "Actualizar"
+
+#: Admin/Display/mediaPhotos.php:176
+msgid "Loading photos"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:182
+msgid "Selected photos"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:184
+#: Admin/Display/mediaAlbums.php:65
+msgid "Shortcode attributes"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:188
+#: Admin/Display/mediaAlbums.php:74
+#: Admin/ShashinWidgetWp.php:69
+msgid "Size"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:190
+#: Admin/Display/mediaAlbums.php:76
+#: Admin/ShashinSettingsMenu.php:108
+msgid "X-Small (72px)"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:191
+#: Admin/Display/mediaAlbums.php:77
+#: Admin/ShashinSettingsMenu.php:109
+msgid "Small (150px)"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:192
+#: Admin/Display/mediaAlbums.php:78
+#: Admin/ShashinSettingsMenu.php:110
+msgid "Medium (300px)"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:193
+#: Admin/Display/mediaAlbums.php:79
+#: Admin/ShashinSettingsMenu.php:111
+msgid "Large (600px)"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:194
+#: Admin/Display/mediaAlbums.php:80
+#: Admin/ShashinSettingsMenu.php:112
+msgid "X-Large (800px)"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:195
+#: Admin/Display/mediaPhotos.php:199
+#: Admin/Display/mediaAlbums.php:81
+#: Admin/Display/mediaAlbums.php:87
+msgid "Max"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:197
+#: Admin/Display/mediaAlbums.php:85
+#: Admin/ShashinWidgetWp.php:73
+msgid "Columns"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:206
+#: Admin/Display/mediaAlbums.php:124
+msgid "Caption"
+msgstr "pie de foto"
+
+#: Admin/Display/mediaPhotos.php:208
+#: Admin/Display/mediaPhotos.php:222
+#: Admin/Display/mediaAlbums.php:94
+#: Admin/Display/mediaAlbums.php:121
+#: Admin/Display/mediaAlbums.php:127
+#: Admin/ShashinWidgetWp.php:127
+#: Admin/ShashinWidgetWp.php:137
+#: Admin/ShashinWidgetWp.php:147
+#: Admin/ShashinSettingsMenu.php:36
+#: Admin/ShashinSettingsMenu.php:83
+#: Admin/ShashinSettingsMenu.php:122
+#: Admin/ShashinSettingsMenu.php:154
+#: Admin/ShashinSettingsMenu.php:162
+#: Admin/ShashinSettingsMenu.php:170
+#: Admin/ShashinSettingsMenu.php:185
+#: Admin/ShashinSettingsMenu.php:219
+msgid "No"
+msgstr "No"
+
+#: Admin/Display/mediaPhotos.php:209
+#: Admin/Display/mediaPhotos.php:223
+#: Admin/Display/mediaAlbums.php:95
+#: Admin/Display/mediaAlbums.php:122
+#: Admin/Display/mediaAlbums.php:126
+#: Admin/ShashinWidgetWp.php:126
+#: Admin/ShashinWidgetWp.php:136
+#: Admin/ShashinWidgetWp.php:146
+#: Admin/ShashinSettingsMenu.php:36
+#: Admin/ShashinSettingsMenu.php:83
+#: Admin/ShashinSettingsMenu.php:122
+#: Admin/ShashinSettingsMenu.php:154
+#: Admin/ShashinSettingsMenu.php:162
+#: Admin/ShashinSettingsMenu.php:170
+#: Admin/ShashinSettingsMenu.php:185
+#: Admin/ShashinSettingsMenu.php:219
+msgid "Yes"
+msgstr "Sí"
+
+#: Admin/Display/mediaPhotos.php:211
+#: Admin/Display/mediaAlbums.php:110
+#: Admin/ShashinWidgetWp.php:90
+msgid "Position"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:213
+#: Admin/Display/mediaAlbums.php:112
+#: Admin/ShashinWidgetWp.php:83
+#: Admin/ShashinSettingsMenu.php:246
+msgid "Center"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:214
+#: Admin/Display/mediaAlbums.php:113
+#: Admin/ShashinWidgetWp.php:96
+#: Admin/ShashinSettingsMenu.php:245
+msgid "Left"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:215
+#: Admin/Display/mediaAlbums.php:114
+#: Admin/ShashinWidgetWp.php:97
+#: Admin/ShashinSettingsMenu.php:247
+msgid "Right"
+msgstr "Derecha"
+
+#: Admin/Display/mediaPhotos.php:216
+#: Admin/Display/mediaAlbums.php:115
+#: Admin/ShashinWidgetWp.php:99
+#: Admin/ShashinSettingsMenu.php:202
+msgid "None"
+msgstr "Ninguno"
+
+#: Admin/Display/mediaPhotos.php:220
+#: Admin/Display/mediaAlbums.php:92
+msgid "Crop"
+msgstr ""
+
+#: Admin/Display/mediaPhotos.php:225
+#: Admin/Display/mediaAlbums.php:131
+msgid "Insert shortcode"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:13
+#: Admin/Display/mediaAlbums.php:43
+msgid "Your Albums"
+msgstr "Sus álbumes"
+
+#: Admin/Display/toolsAlbums.php:17
+msgid "Click an album title to view its photos. Click a column header to order the album list by that column (and click again to reverse the order)."
+msgstr "Haga click en un álbum para ver sus fotos. Haga click en la cabecera de una columna para ordenar la lista de álbumes de esa columna (haga click de nuevo si desea invertir el orden)."
+
+#: Admin/Display/toolsAlbums.php:25
+#: Admin/ShashinWidgetWp.php:61
+#: Admin/ShashinWidgetWp.php:112
+msgid "Title"
+msgstr "Título"
+
+#: Admin/Display/toolsAlbums.php:28
+msgid "Album ID"
+msgstr "ID de álbum"
+
+#: Admin/Display/toolsAlbums.php:31
+msgid "Source"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:33
+msgid "Sync"
+msgstr "Sincronizar"
+
+#: Admin/Display/toolsAlbums.php:34
+msgid "Delete"
+msgstr "Eliminar"
+
+#: Admin/Display/toolsAlbums.php:36
+#: Admin/ShashinWidgetWp.php:114
+msgid "Photo Count"
+msgstr "Cuenta de foto"
+
+#: Admin/Display/toolsAlbums.php:39
+msgid "Pub Date"
+msgstr "Fecha de publicación"
+
+#: Admin/Display/toolsAlbums.php:42
+msgid "Last Sync"
+msgstr "Última sincronización"
+
+#: Admin/Display/toolsAlbums.php:90
+msgid "You have not added any albums yet."
+msgstr "Usted no ha añadido ningún álbum todavía."
+
+#: Admin/Display/toolsAlbums.php:93
+#: Admin/Display/toolsAlbums.php:126
+msgid "Add Albums"
+msgstr "Agregar álbumes"
+
+#: Admin/Display/toolsAlbums.php:99
+msgid "Shashin can display photos from public <em>Picasa</em> albums, videos from <em>YouTube</em>, and <em>Twitpic</em> photos by importing their RSS feeds. Please enter an RSS URL below (click \"examples\" for further details)."
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:103
+msgid "All the Picasa albums for a user"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:103
+msgid "Look for the 'RSS' link on the bottom right of the Picasa user's home page"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:105
+msgid "A single Picasa album"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:105
+msgid "Look for the 'RSS' link in the sidebar of the album's main page"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:107
+msgid "A YouTube user's videos"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:107
+msgid "Youtube does not display links for its feeds. You need to type in the RSS URL yourself"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:109
+msgid "Most popular YouTube videos"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:109
+msgid "Youtube has many standard feeds available (top rated, etc) - see the"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:110
+msgid "YouTube API page for more"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:112
+msgid "A Twitpic user's photos"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:112
+msgid "Look for the RSS link near the top right of the user's page"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:115
+msgid "A Flickr set"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:115
+msgid "Look for the 'Feed' link on the bottom left of the set's main page."
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:117
+msgid "A Flickr photostream"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:117
+msgid "Look for the 'Latest' link near the RSS icon on the bottom left of the photostream's main page."
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:121
+msgid "RSS URL:"
+msgstr ""
+
+#: Admin/Display/toolsAlbums.php:123
+#, fuzzy
+msgid "Include album's photos in random photo displays?"
+msgstr "¿Incluir las fotos en la vista aleatoria de fotos?"
+
+#: Admin/Display/mediaAlbums.php:6
+msgid "No albums selected"
+msgstr "No se ha seleccionado ningún álbum"
+
+#: Admin/Display/mediaAlbums.php:50
+msgid "Published"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:58
+msgid "Selected Albums"
+msgstr "Álbumes seleccionados"
+
+#: Admin/Display/mediaAlbums.php:69
+msgid "Type"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:71
+msgid "Album thumbnails"
+msgstr "Miniaturas del álbum"
+
+#: Admin/Display/mediaAlbums.php:72
+msgid "All album photos"
+msgstr "Todas las fotos del álbum"
+
+#: Admin/Display/mediaAlbums.php:101
+#: Admin/ShashinWidgetWp.php:109
+msgid "Date"
+msgstr "Fecha"
+
+#: Admin/Display/mediaAlbums.php:102
+#: Admin/ShashinWidgetWp.php:110
+#: Admin/ShashinSettingsMenu.php:143
+msgid "Random"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:103
+msgid "User (album thumbnails only)"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:104
+msgid "Title (album thumbnails only)"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:105
+msgid "Location (album thumbnails only)"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:106
+msgid "Photo Count (album thumbnails only)"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:107
+msgid "Source (album photos only)"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:108
+msgid "Filename (album photos only)"
+msgstr ""
+
+#: Admin/Display/mediaAlbums.php:119
+msgid "Reverse Order"
+msgstr ""
+
+#: Admin/Display/donate.php:5
+#: Admin/Display/donate.php:6
+msgid "Support Shashin"
+msgstr "Soporte de Shashin"
+
+#: Admin/Display/donate.php:7
+msgid "Shashin Help"
+msgstr "Ayuda de Shashin"
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:63
+msgid "Upgrade cleanup completed"
+msgstr ""
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:74
+msgid "Added"
+msgstr ""
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:74
+msgid "Picasa albums"
+msgstr "Álbumes de Picasa"
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:81
+msgid "Added Picasa album"
+msgstr ""
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:88
+msgid "Added YouTube videos"
+msgstr ""
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:95
+msgid "Added Twitpic photos"
+msgstr ""
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:99
+msgid "Unrecognized RSS feed"
+msgstr ""
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:112
+msgid "Synchronized"
+msgstr "Sincronizado."
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:125
+msgid "Synchronized all"
+msgstr "Todos sincronizados"
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:125
+msgid "albums"
+msgstr "álbumes"
+
+#: Admin/ShashinMenuActionHandlerAlbums.php:132
+msgid "Deleted album"
+msgstr "Álbum eliminado"
+
+#: Admin/ShashinMediaMenu.php:67
+#: ShashinWp.php:312
+msgid "Shashin Error"
+msgstr "Error en Shashin"
+
+#: Admin/ShashinMediaMenu.php:77
+msgid "Albums"
+msgstr "Álbumes"
+
+#: Admin/ShashinMenuDisplayer.php:62
+msgid "Upgrade notice"
+msgstr ""
+
+#: Admin/ShashinMenuDisplayer.php:64
+msgid "Please click \"Sync All\" below to complete the upgrade. Then review your Shashin albums, tags, and photos. If everything looks correct, please"
+msgstr ""
+
+#: Admin/ShashinMenuDisplayer.php:66
+msgid "click here to remove the old settings and database backup"
+msgstr ""
+
+#: Admin/ShashinMenuDisplayer.php:68
+msgid "(which will remove this nag). Also, if you have posts containing Shashin tags, go to the Shashin settings menu to turn on support for old-style tags."
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:22
+msgid "Display Shashin Photos. Review your photos in the Shashin Tools menu to get their Photo IDs."
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:25
+msgid "Shashin Photos"
+msgstr "Fotos de Shashin"
+
+#: Admin/ShashinWidgetWp.php:34
+msgid "Shashin widget help"
+msgstr "Ayuda para widget de Shashin"
+
+#: Admin/ShashinWidgetWp.php:39
+msgid "Error"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:65
+#, fuzzy
+msgid "Photo IDs"
+msgstr "IDs de las fotos"
+
+#: Admin/ShashinWidgetWp.php:77
+msgid "Limit"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:84
+msgid "Float Left"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:85
+msgid "Float Right"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:86
+msgid "Float None"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:87
+msgid "Float Inherit"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:98
+msgid "Both"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:100
+msgid "Inherit"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:103
+msgid "CSS Clear"
+msgstr "Borrar estilo CSS"
+
+#: Admin/ShashinWidgetWp.php:111
+msgid "User (ID List)"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:113
+msgid "Location"
+msgstr "Ubicación"
+
+#: Admin/ShashinWidgetWp.php:120
+msgid "Order By"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:130
+msgid "Rev. Order"
+msgstr ""
+
+#: Admin/ShashinWidgetWp.php:140
+#, fuzzy
+msgid "Show Caption"
+msgstr "Mostrar pie de foto"
+
+#: Admin/ShashinWidgetWp.php:150
+msgid "Crop Square"
+msgstr "Recortar cuadrados"
+
+#: Admin/ShashinWidgetWp.php:154
+msgid "Alt. Thumb IDs"
+msgstr ""
+
+#: Admin/ShashinInstall.php:87
+#: Admin/ShashinInstall.php:101
+msgid "Failed to create table "
+msgstr "Error al crear la tabla"
+
+#: Admin/ShashinSynchronizer.php:47
+msgid "Invalid json url"
+msgstr ""
+
+#: Admin/ShashinSynchronizer.php:87
+#: Admin/ShashinSynchronizer.php:91
+msgid "Failed to retrieve album feed at "
+msgstr "Error al recuperar feed del álbum"
+
+#: Admin/ShashinSynchronizer.php:100
+msgid "Failed to parse album feed at "
+msgstr "Error al parsear feed del álbum."
+
+#: Admin/ShashinSynchronizer.php:139
+msgid "Unexpected number of fields in feed"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:18
+msgid "General Settings"
+msgstr "Configuraciones generales"
+
+#: Admin/ShashinSettingsMenu.php:22
+msgid "Album Photos Display"
+msgstr "Visualizador de fotos del álbum"
+
+#: Admin/ShashinSettingsMenu.php:23
+msgid "When clicking a Shashin album thumbnail to view its photos, these settings control how the album's photos are displayed."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:26
+msgid "Highslide Settings"
+msgstr "Configuraciones de Highslide"
+
+#: Admin/ShashinSettingsMenu.php:27
+#, fuzzy
+msgid "Highslide is the photo viewer included with Shashin. These settings apply only if you select \"Use Highslide\" above."
+msgstr "Esta configuración se aplica sólo si se ha seleccionado \"Usar Highslide\" anteriormente."
+
+#: Admin/ShashinSettingsMenu.php:30
+msgid "Other Viewer Settings"
+msgstr "Configuraciones de otros visores"
+
+#: Admin/ShashinSettingsMenu.php:31
+#, fuzzy
+msgid "These settings apply only if you select \"Use another viewer\" above. There are a wide variety of configuration requirements for different viewers. Shashin accommodates them by letting you control the attributes for the link and image tags used for its thumbnails. All links and thumbnails automatically get unique IDs (e.g. \"shashinThumbnailLink_24\", \"shashinThumbnailImage_24\")."
+msgstr "Esta configuración se aplica sólo si ha seleccionado antes \"Usar otro visor\" . Existen distintos tipos de configuraciones para los distintos visores de imágenes. Shashin es cómodo porque le permite controlar los atributos del enlace y la imagen utilizada por sus miniaturas. Todos los enlaces y las miniaturas automáticamente obtienen IDs únicos (por ejemplo \"shashin_thumb_link_24\", \"shashin_thumb_image_24\")."
+
+#: Admin/ShashinSettingsMenu.php:39
+msgid "Support old-style Shashin shortcodes?"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:40
+msgid "Select \"yes\" only if you have blog posts containing the shortcode format used with previous versions of Shashin (any versions from prior to 2011)."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:47
+#, fuzzy
+msgid "Display at photo hosting site"
+msgstr "Mostrar pie de foto:"
+
+#: Admin/ShashinSettingsMenu.php:48
+msgid "Use Highslide"
+msgstr "Usar Highslide"
+
+#: Admin/ShashinSettingsMenu.php:49
+msgid "Use another viewer"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:54
+msgid "How to display a full-size photo when its thumbnail is clicked"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:55
+#, fuzzy
+msgid "Highslide is included with Shashin and works \"out of the box.\" If you select \"Use another viewer,\" you are responsible for implementing your own image viewer. See \"Highslide Settings\" and \"Other Viewer Settings\" below."
+msgstr "Esto determina cómo mostrar una imagen cuando se hace click en su miniatura. Highslide se incluye con Shashin y trabaja \"out of the box.\" <strong>si selecciona\"Usar otro visor,\" usted es responsable de la implementación de su propio visor de imágenes.</strong> Ver \"Configuración de Highslide\" y \"Configuración de otros visores\" a continuación."
+
+#: Admin/ShashinSettingsMenu.php:62
+msgid "X-Small (400px)"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:63
+msgid "Small (600px)"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:64
+msgid "Medium (800px)"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:65
+msgid "Large (912px)"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:66
+msgid "X-Large (1024px)"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:71
+#, fuzzy
+msgid "Expanded image size"
+msgstr "Visualización ampliada de la imagen:"
+
+#: Admin/ShashinSettingsMenu.php:72
+msgid "The expanded display size for a photo when its thumbnail is clicked. The actual size of a photo may be smaller if it's not available in the selected size."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:78
+msgid "Default maximum number of photos to show"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:79
+msgid "The maximum number of photos to show if no photo IDs are provided and no limit is specified. This is also used to control the number of photos per set in a display of album photos."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:86
+#, fuzzy
+msgid "Sync all albums daily?"
+msgstr "Sincronizar todos los álbumes diariamente:"
+
+#: Admin/ShashinSettingsMenu.php:87
+msgid "This will sync all your albums in Shashin once daily. It will not automatically add new albums."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:93
+#, fuzzy
+msgid "Thumbnail div padding"
+msgstr "Padding del div de la miniatura:"
+
+#: Admin/ShashinSettingsMenu.php:94
+#, fuzzy
+msgid "If you change the \".shashinThumbnailImage\" padding value in shashin.css, make this 2x that value"
+msgstr "Haga el 2x valor de separación '.shashin_thumb img' en shashin.css"
+
+#: Admin/ShashinSettingsMenu.php:100
+#, fuzzy
+msgid "Content width for your theme"
+msgstr "Ancho máximo de una imagen en su tema:"
+
+#: Admin/ShashinSettingsMenu.php:101
+msgid "The maximum width available in your theme for a Shashin photo (or set of photos). This number is used to determine photo sizes when you use \"max\" as the number of columns or the size in a Shashin tag. Shashin will use the closest, smaller size available."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:117
+#, fuzzy
+msgid "Photo thumbnail size"
+msgstr "Tamaño de la miniatura:"
+
+#: Admin/ShashinSettingsMenu.php:125
+msgid "Crop thumbnail square if possible?"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:126
+msgid "Certain photo sizes can be cropped square (which ones depends on the photo hosting service; for Picasa the X-Small and Small sizes can be cropped)."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:132
+#, fuzzy
+msgid "Number of columns"
+msgstr "Número de columnas:"
+
+#: Admin/ShashinSettingsMenu.php:140
+msgid "Date added to Shashin"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:141
+#, fuzzy
+msgid "Date photos taken"
+msgstr "Fecha de realización"
+
+#: Admin/ShashinSettingsMenu.php:144
+msgid "Order at photo hosting service"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:149
+#, fuzzy
+msgid "Order thumbnails by"
+msgstr "Clase para las miniaturas:"
+
+#: Admin/ShashinSettingsMenu.php:157
+msgid "Reverse the order?"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:158
+msgid "For example, if you order by filename and then select \"yes\" for reversing the order, the thumbnails will appear in reverse alphabetical order."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:165
+#, fuzzy
+msgid "Show captions under each thumbnail?"
+msgstr "Si desea mostrar un pie de foto en cada miniatura."
+
+#: Admin/ShashinSettingsMenu.php:173
+#, fuzzy
+msgid "Autoplay slideshows?"
+msgstr "Autoreproducir la presentación de diapositivas en Highslide:"
+
+#: Admin/ShashinSettingsMenu.php:174
+#, fuzzy
+msgid "After someone clicks a thumbnail in a slideshow group, this determines whether the slideshow plays automatically."
+msgstr "Si hace click en una imagen de un grupo de diapositivas, puede determinar si el pase de diapositivas se reproduce automáticamente."
+
+#: Admin/ShashinSettingsMenu.php:180
+#, fuzzy
+msgid "Autoplay image display time"
+msgstr "Visualización ampliada de la imagen:"
+
+#: Admin/ShashinSettingsMenu.php:181
+#, fuzzy
+msgid "How long each photo is displayed in a autoplay slideshow (in milliseconds)."
+msgstr "¿Cuánto tiempo desea que se muestre cada imagen en una presentación de diapositivas? (en milisegundos)"
+
+#: Admin/ShashinSettingsMenu.php:188
+#, fuzzy
+msgid "Repeat slideshows?"
+msgstr "Repetir la presentación de diapositivas:"
+
+#: Admin/ShashinSettingsMenu.php:189
+msgid "When viewing the final photo in slideshow, whether clicking \"next\" will start the slideshow over again with the first photo."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:196
+msgid "Beveled"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:197
+msgid "Glossy Dark"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:198
+msgid "Rounded Black"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:199
+msgid "Drop Shadow"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:200
+msgid "Outer Glow"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:201
+msgid "Rounded White"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:207
+#, fuzzy
+msgid "Expanded view outline style"
+msgstr "Visualización ampliada de la imagen:"
+
+#: Admin/ShashinSettingsMenu.php:208
+#, fuzzy
+msgid "The graphic outline applied to expanded images."
+msgstr "Entorno gráfico aplicado a las imágenes ampliadas. Seleccione 'null' para no mostrar contorno."
+
+#: Admin/ShashinSettingsMenu.php:214
+#, fuzzy
+msgid "Background dimming opacity"
+msgstr "Atenuación de la opacidad"
+
+#: Admin/ShashinSettingsMenu.php:215
+#, fuzzy
+msgid "Enter a number between 0 and 1. Indicates how much to dim the background when an image is expanded (enter 0 for no dimming). The default color is black (you can change it by editing .highslide-dimming in highslide.css."
+msgstr "Introduzca un número entre 0 y 1. Indica cuánto desea oscurecer el fondo cuando una imagen se amplía (0 para no regular). En highslide.css, debe buscar .highslide-dimming para cambiar el color (por defecto es negro)"
+
+#: Admin/ShashinSettingsMenu.php:222
+#, fuzzy
+msgid "Hide slideshow controller on mouseout?"
+msgstr "Ocultar los controles cuando el mouse no está sobre la imagen:"
+
+#: Admin/ShashinSettingsMenu.php:223
+msgid "Whether the slideshow controller should be hidden when the mouse leaves the expanded image."
+msgstr "Los controles de la presentación de diapositivas deben estar ocultos cuando el mouse sale de la imagen ampliada."
+
+#: Admin/ShashinSettingsMenu.php:230
+msgid "Top"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:231
+msgid "Middle"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:232
+msgid "Bottom"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:237
+msgid "Slideshow controller vertical position"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:252
+#, fuzzy
+msgid "Slideshow controller horizontal position"
+msgstr "Ocultar los controles cuando el mouse no está sobre la imagen:"
+
+#: Admin/ShashinSettingsMenu.php:260
+msgid "Add camera EXIF data to expanded view caption?"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:261
+msgid "\"All\" includes the camera make, model, fstop, focal length, exposure time, and ISO."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:267
+#, fuzzy
+msgid "Link \"rel\" for images"
+msgstr "Enlace \"rel\" para imágenes:"
+
+#: Admin/ShashinSettingsMenu.php:268
+#, fuzzy
+msgid "The \"rel\" attribute for image links; e.g. \"lightbox\" if you are using Lightbox."
+msgstr "El \"rel\" atributo por los enlaces de la imagen; por ejemplo, \"lightbox\" si está utilizando Lightbox 2."
+
+#: Admin/ShashinSettingsMenu.php:274
+#, fuzzy
+msgid "Link \"rel\" for videos"
+msgstr "Enlace \"rel\" para videos:"
+
+#: Admin/ShashinSettingsMenu.php:275
+msgid "The \"rel\" attribute for links if displaying a video; e.g. \"vidbox\" if you are using Videobox."
+msgstr "El \"rel\" atributo para los enlaces si muestra un vídeo, por ejemplo, \"vidbox\" si está utilizando Videobox."
+
+#: Admin/ShashinSettingsMenu.php:279
+msgid "Brackets"
+msgstr "Soportes"
+
+#: Admin/ShashinSettingsMenu.php:279
+msgid "Hyphen"
+msgstr "Guiones"
+
+#: Admin/ShashinSettingsMenu.php:282
+#, fuzzy
+msgid "\"rel\" delimiter for image groups"
+msgstr "\"rel\" delimitar por grupos de imágenes:"
+
+#: Admin/ShashinSettingsMenu.php:283
+#, fuzzy
+msgid "How to delimit image groups in a rel tag. Some viewers use brackets (e.g. \"lightbox[33]\") and some use hyphens (e.g. \"lightbox-33\")."
+msgstr "¿Cómo delimitar grupos de imágenes en una etiqueta. Lightbox 2 usa corchetes (e.g. \"lightbox[33]\"). Muchos otros visores utilizan guiones (ej. Slimbox: \"lightbox-33\")."
+
+#: Admin/ShashinSettingsMenu.php:289
+#, fuzzy
+msgid "Class for links"
+msgstr "Clase para los enlaces:"
+
+#: Admin/ShashinSettingsMenu.php:290
+#, fuzzy
+msgid "A CSS class to apply to the link tags for thumbnails. Leave blank for none."
+msgstr "Estilo CSS para aplicar a los enlaces de etiquetas. Deje en blanco para no asignar ningún estilo."
+
+#: Admin/ShashinSettingsMenu.php:296
+#, fuzzy
+msgid "Class for thumbnails"
+msgstr "Clase para las miniaturas:"
+
+#: Admin/ShashinSettingsMenu.php:297
+#, fuzzy
+msgid "A CSS class to apply to the thumbnail image tags. Leave blank for none."
+msgstr "Estilo CSS para aplicar a las etiquetas de las imágenes en miniatura. Deje en blanco para no aplicar ningún estilo."
+
+#: Admin/ShashinSettingsMenu.php:301
+#, fuzzy
+msgid "Links"
+msgstr "Enlace a las etiquetas"
+
+#: Admin/ShashinSettingsMenu.php:301
+#, fuzzy
+msgid "Images"
+msgstr "Etiquetas de la imagen"
+
+#: Admin/ShashinSettingsMenu.php:304
+#, fuzzy
+msgid "Use photo caption as \"title\" for"
+msgstr "Utilice pie de foto como \"title\" en:"
+
+#: Admin/ShashinSettingsMenu.php:305
+msgid "You can use the photo's caption as the \"title\" for for its link tag, its image tag, or both."
+msgstr "You can use the photo's caption as the \"title\" for for its link tag, its image tag, or both.Usted puede utilizar el pie de foto como el \"title\"  por su enlace de etiqueta, su etiqueta de imagen, o ambas cosas."
+
+#: Admin/ShashinSettingsMenu.php:388
+msgid "Unrecognized validation function"
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:429
+msgid "The following settings have invalid values. Please try again."
+msgstr ""
+
+#: Admin/ShashinSettingsMenu.php:446
+#, fuzzy
+msgid "Settings saved"
+msgstr "Configuraciones de Shashin guardadas."
+
+#: Admin/ShashinUninstaller.php:35
+#: Admin/ShashinUninstaller.php:43
+#, fuzzy
+msgid "Failed to drop table "
+msgstr "Error al crear o actualizar la tabla"
+
+#: ShashinWp.php:153
+msgid "Invalid shashin shortcode type: "
+msgstr ""
+
+#: ShashinWp.php:198
+#, fuzzy
+msgid "Add Shashin photos"
+msgstr "Página de Shashin"
+
+#: ShashinWp.php:304
+msgid "Please go to the Shashin Tools Menu to complete the upgrade."
+msgstr ""
+
+#~ msgid "ShashinPhoto::getPhoto - Failed to retrieve photo. SQL Error:"
+#~ msgstr ""
+#~ "ShashinPhoto::get foto - No se ha podido recuperar la foto. Error de SQL:"
+
+#~ msgid "Photo not found."
+#~ msgstr "Foto no encontrada."
+
+#~ msgid "ShashinPhoto::getPhoto - Called with invalid arguments."
+#~ msgstr "ShashinPhoto::getPhoto - Llamado con argumentos no válidos."
+
+#~ msgid "Photo retrieved."
+#~ msgstr "Foto recuperada."
+
+#~ msgid "ShashinPhoto::setPhotoLocal - Called with invalid arguments."
+#~ msgstr "ShashinPhoto:: setPhotoLocal - Llamado con argumentos no válidos."
+
+#~ msgid ""
+#~ "ShashinPhoto::getPhotoLocal - Failed to update record for photo ID %d. "
+#~ "SQL Error:"
+#~ msgstr ""
+#~ "ShashinPhoto::getPhotoLocal - No se pudo actualizar el registro de la "
+#~ "fotografía con el ID %d. Error de SQL:"
+
+#~ msgid "Photo updated."
+#~ msgstr "Foto actualizada."
+
+#~ msgid "Shashin Error: unable to retrieve random photos."
+#~ msgstr "Error de Shashin: no es posible recuperar las fotos aleatorias."
+
+#~ msgid "Shashin Error: unable to retrieve newest photos."
+#~ msgstr "Error de Shashin: no es posible recuperar las fotos recientes."
+
+#~ msgid "Shashin Error: unable to retrieve photo thumbnails."
+#~ msgstr ""
+#~ "Error de Shashin: no es posible recuperar las miniaturas de las fotos."
+
+#~ msgid "Shashin Error: unable to retrieve album photos."
+#~ msgstr "Error de Shashin: no es posible recuperar el álbum de fotos."
+
+#~ msgid ""
+#~ "Shashin Error: image size and the number of columns cannot both be 'max'"
+#~ msgstr ""
+#~ "Error de Shashin: el tamaño de la imagen y el número de columnas no "
+#~ "pueden ser 'max' ambos."
+
+#~ msgid "Click picture to play video"
+#~ msgstr "Haga click en la foto, para reproducir el video"
+
+#~ msgid "Click picture to enlarge"
+#~ msgstr "Haga click en la foto para agrandarla"
+
+#~ msgid "That is not a valid URL for your Picasa server."
+#~ msgstr "Esta no es una URL válida para su servidor de Picasa."
+
+#~ msgid "Album added."
+#~ msgstr "Álbum agregado."
+
+#~ msgid "Albums added."
+#~ msgstr "Álbumes agregados."
+
+#~ msgid "All albums synced for "
+#~ msgstr "Todos los álbumes han sido actualizados por"
+
+#~ msgid ""
+#~ "To complete the Shashin upgrade, please deactivate and reactivate Shashin "
+#~ "from your plugins menu, and then re-sync all albums."
+#~ msgstr ""
+#~ "Para completar la actualización de Shashin, por favor, desactive y luego "
+#~ "reactive Shashin desde el menu de administración de plugins de wordpress, "
+#~ "y luego vuelva a sincronizar todos los álbumes."
+
+#~ msgid ""
+#~ "Shashin has been uninstalled. You can now deactivate Shashin on your "
+#~ "plugins management page."
+#~ msgstr ""
+#~ "Shashin se ha desinstalado. Ahora puede desactivar Shashin en la sección "
+#~ "de administración de plugins."
+
+#~ msgid "Uninstall of Shashin failed. Database error:"
+#~ msgstr "La desinstalación de Shashin ha fallado. Error en la base de datos:"
+
+#~ msgid ""
+#~ "You must check the 'Uninstall Shashin' checkbox to confirm you want to "
+#~ "uninstall Shashin"
+#~ msgstr ""
+#~ "Usted debe marcar la casilla 'Desinstalar Shashin' para confirmar que "
+#~ "desea desinstalar Shashin"
+
+#~ msgid "Invalid URL for Picasa Server"
+#~ msgstr "URL inválida para el servidor de Picasa"
+
+#~ msgid "ShashinAlbum::getAlbum - Failed to retrieve album. SQL Error:"
+#~ msgstr "ShashinAlbum::getAlbum - No se pudo recuperar el álbum. Error SQL:"
+
+#~ msgid "Album not found."
+#~ msgstr "Álbum no encontrado."
+
+#~ msgid "ShashinAlbum::getAlbum - Called with invalid arguments."
+#~ msgstr "ShashinAlbum::getAlbum - Llamado con argumentos no válidos."
+
+#~ msgid "Album retrieved."
+#~ msgstr "Álbum recuperado."
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbum - First argument to setAlbum is not a valid "
+#~ "username."
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbum - El primer argumento a setAlbum no es un nombre "
+#~ "de usuario válido."
+
+#~ msgid "ShashinAlbum::setAlbum - Failed to parse album feed."
+#~ msgstr "ShashinAlbum::setAlbum - Falló el análisis del feed del álbum."
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbum - Second argument to setAlbum is not a valid album "
+#~ "identifier."
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbum - El segundo argumento a setAlbum no es un "
+#~ "identificador válido de álbum."
+
+#~ msgid "Album metadata synchronized"
+#~ msgstr "Metadatos del álbum sincronizados."
+
+#~ msgid "ShashinAlbum::deleteAlbum - Album object not correctly set."
+#~ msgstr ""
+#~ "ShashinAlbum::deleteAlbum - El objeto álbum no está correctamente "
+#~ "configurado."
+
+#~ msgid ""
+#~ "ShashinAlbum::deleteAlbum - Failed to delete photo records for album ID "
+#~ "%d. SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::deleteAlbum - No se han podido eliminar las fotos "
+#~ "registradas en el álbum ID %d. Error SQL:"
+
+#~ msgid ""
+#~ "ShashinAlbum::deleteAlbum - Failed to delete album record for album ID "
+#~ "%d. SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::deleteAlbum -No se ha podido eliminar el álbum registrado "
+#~ "con el ID %d. Error SQL:"
+
+#~ msgid ""
+#~ "ShashinAlbum::getAlbumPhotos - Failed to retrieve photos for Album ID %d. "
+#~ "SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::getAlbumPhotos - No se han podido recuperar las fotos del "
+#~ "álbum con el ID %d. Error de SQL:"
+
+#~ msgid "Album photos retrieved."
+#~ msgstr "Álbum de fotos recuperado."
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbumPhotos - Failed to read Picasa RSS feed for album."
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbumPhotos - No se pudo leer el canal RSS de Picasa "
+#~ "para el álbum."
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbumPhotos - Failed to flag photo ID %d as deleted. SQL "
+#~ "Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbumPhotos - Falló el intento por marcar la foto ID %d "
+#~ "como eliminada. Error de SQL:"
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbumPhotos - Failed to update record for photo ID %d. "
+#~ "SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbumPhotos - No se pudo actualizar el registro de la "
+#~ "foto con el ID %d. Error de SQL:"
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbumPhotos - Failed to insert record for photo ID %d. "
+#~ "SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbumPhotos - Falló el intento de insertar el registro "
+#~ "de la foto con el ID %d. Error de SQL:"
+
+#~ msgid "Album photos synchronized."
+#~ msgstr "Álbumes de fotos sincronizados."
+
+#~ msgid "ShashinAlbum::setAlbumLocal - Called with invalid arguments."
+#~ msgstr "ShashinAlbum::setAlbumLocal - Llamado con argumentos no válidos."
+
+#~ msgid ""
+#~ "ShashinAlbum::setAlbumLocal - Failed to update record for photo ID %d. "
+#~ "SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::setAlbumLocal - Falló el intento de insertar el registro de "
+#~ "la foto con el ID %d. Error de SQL:"
+
+#~ msgid "Album updated."
+#~ msgstr "Álbum actualizado."
+
+#~ msgid ""
+#~ "ShashinAlbum::setUserAlbums - First argument to setUserAlbums is not a "
+#~ "valid username."
+#~ msgstr ""
+#~ "ShashinAlbum::setUserAlbums - El primer argumento para setUserAlbums no "
+#~ "es un nombre de usuario válido."
+
+#~ msgid "ShashinAlbum::setUserAlbums - Failed to parse album feed."
+#~ msgstr ""
+#~ "ShashinAlbum::setUserAlbums - Ha fallado el análisis del feed del álbum."
+
+#~ msgid ""
+#~ "ShashinAlbum::setUserAlbums - Failed to update database record for album "
+#~ "ID %d. SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::setUserAlbums - No se pudo actualizar el registro en la "
+#~ "base de datos del álbum con el ID %d. Error de SQL:"
+
+#~ msgid ""
+#~ "ShashinAlbum::setUserAlbums - Failed to insert database record for album "
+#~ "ID %d. Possible SQL Error:"
+#~ msgstr ""
+#~ "ShashinAlbum::setUserAlbums - No se pudo insertar en la base de datos el "
+#~ "registro del álbum con el ID% d. Posible error de SQL:"
+
+#~ msgid "Shashin Error: unable to retrieve albums."
+#~ msgstr "Error de Shashin: no se pueden recuperar los álbumes."
+
+#~ msgid "pictures"
+#~ msgstr "fotos"
+
+#~ msgid "picture"
+#~ msgstr "foto"
+
+#~ msgid "Image Size"
+#~ msgstr "Tamaño de la imagen"
+
+#~ msgid "Max Cols"
+#~ msgstr "Máximo de columnas"
+
+#~ msgid "No. of Images"
+#~ msgstr "No. de imágenes"
+
+#~ msgid "CSS Float/Align"
+#~ msgstr "CSS Flotar / Alinear"
+
+#~ msgid "Support Deko Boko"
+#~ msgstr "Soporte Deko Boko"
+
+#~ msgid "Album Key"
+#~ msgstr "ID del Álbum"
+
+#~ msgid "Are you sure you want to delete this album?"
+#~ msgstr "¿Está seguro que desea eliminar este álbum?"
+
+#~ msgid "Sync Multiple Albums"
+#~ msgstr "Sincronizar múltiples álbumes"
+
+#~ msgid ""
+#~ "You can synchronize all the albums for a Picasa user at the same time. "
+#~ "This can take some time if you have many albums. Note this only "
+#~ "synchronizes albums you have already added to Shashin."
+#~ msgstr ""
+#~ "Puede sincronizar todos los álbumes en Picasa de un usuario a la vez. "
+#~ "Esto puede tomar algún tiempo si tiene muchos álbumes. Tenga en cuenta "
+#~ "que esta acción sólo sincroniza los álbumes que ya han sido agregados a "
+#~ "Shashin."
+
+#~ msgid "Sync all albums for Picasa username:"
+#~ msgstr "Sincronizar todos los álbumes de Picasa del usuario:"
+
+#~ msgid ""
+#~ "Please enter the URL for your &quot;My Photos&quot; page on Picasa if you "
+#~ "want to add all your public albums to Shashin, or enter the URL of an "
+#~ "individual album. Use the regular URL, <strong>not the RSS URL</strong>."
+#~ msgstr ""
+#~ "Por favor, introduzca la dirección URL de su enlace &quot;Mis fotos&quot; "
+#~ "de su página de Picasa, si desea añadir todos sus álbumes como públicos a "
+#~ "Shashin, o introduzca la dirección URL de un álbum individual. Utilice la "
+#~ "dirección regular, <strong>no la dirección URL RSS</strong>."
+
+#~ msgid "The URL should have one of these formats:"
+#~ msgstr "La dirección URL debe tener uno de estos formatos:"
+
+#~ msgid "username"
+#~ msgstr "nombre de usuario"
+
+#~ msgid "OR"
+#~ msgstr "O"
+
+#~ msgid "albumname"
+#~ msgstr "nombre del álbum"
+
+#~ msgid "Picasa URL:"
+#~ msgstr "URL de Picasa:"
+
+#~ msgid "Album Tags Quick Reference"
+#~ msgstr "Referencia rápida de etiquetas de álbum"
+
+#~ msgid "Display thumbnails for your albums in a table layout"
+#~ msgstr "Mostrar las miniaturas de los álbumes en un diseño de tabla"
+
+#~ msgid ""
+#~ "[salbumthumbs=to_show,max_cols,location_yn,pubdate_yn,position,clear]"
+#~ msgstr ""
+#~ "[salbumthumbs=to_show,max_cols,location_yn,pubdate_yn,position,clear]"
+
+#~ msgid ""
+#~ "Example: [salbumthumbs=pub_date desc,3,y,n,center] All albums in reverse "
+#~ "order by publication date, 3 columns of thumbnails, show albums "
+#~ "locations, don't show publication dates, center on the page"
+#~ msgstr ""
+#~ "Ejemplo: [salbumthumbs=pub_date desc,3,y,n,center] Todos los álbumes en "
+#~ "orden inverso, por fecha de publicación, tres columnas de miniaturas, se "
+#~ "muestra la ubicación  de los álbumes, no se muestran las fechas de "
+#~ "publicación y se centran en la página"
+
+#~ msgid ""
+#~ "Example: [salbumthumbs=2|24|33,1,n,y,left] Albums with Shashin keys 2, "
+#~ "24, and 33 only, 1 column of thumbnails, don't show album locations, show "
+#~ "publication dates, float left"
+#~ msgstr ""
+#~ "Ejemplo: [salbumthumbs=2|24|33,1,n,y,left] Álbumes con ID de Shashin 2, "
+#~ "24 y 33 solamente, una columna de miniaturas, no se muestran las "
+#~ "ubicaciones de los álbumes, se muestran las fechas de publicación y "
+#~ "flotan a la izquierda"
+
+#~ msgid ""
+#~ "Notes: For ordering, options are 'pub_date', 'title', or "
+#~ "'last_updated' (add ' desc' for reverse ordering)."
+#~ msgstr ""
+#~ "Notas: Para ordenar, las opciones son 'pub_date', 'title', or "
+#~ "'last_updated' (add ' desc' para revertir el orden)."
+
+#~ msgid "Display thumbnails and descriptions for your albums in a list layout"
+#~ msgstr ""
+#~ "Mostrar miniaturas y descripciones de sus álbumes en el formato de lista"
+
+#~ msgid "[salbumlist=to_show,info_yn]"
+#~ msgstr "[salbumlist=to_show,info_yn]"
+
+#~ msgid ""
+#~ "Example: [salbumlist=pub_date desc,y]  All albums in reverse order by "
+#~ "publication date, with additional album information shown between the "
+#~ "title and description (photo count, publication date, and location)"
+#~ msgstr ""
+#~ "Ejemplo: [salbumlist=pub_date desc,y] Todos los álbumes en orden inverso, "
+#~ "por fecha de publicación, con información adicional del álbum que se "
+#~ "muestra, entre el título y la descripción (cantidad de fotos, fecha de "
+#~ "publicación, y la ubicación)"
+
+#~ msgid ""
+#~ "Example: [salbumlist=2|24|33,n] Albums with Shashin keys 2, 24, and 33 "
+#~ "only, no additional information shown."
+#~ msgstr ""
+#~ "Ejemplo: [salbumlist=2|24|33,n] Álbumes con ID de Shashin 2, 24 y 33 "
+#~ "solamente, no se muestra información adicional."
+
+#~ msgid "See the"
+#~ msgstr "Vea la"
+
+#~ msgid "for detailed instructions."
+#~ msgstr "para obtener instrucciones detalladas."
+
+#~ msgid "Your Picasa server:"
+#~ msgstr "Su servidor de Picasa:"
+
+#~ msgid "The base URL of your Picasa server. Be sure to include 'http://'"
+#~ msgstr ""
+#~ "La dirección URL base de su servidor de Picasa. Asegúrese de incluir "
+#~ "'http://'"
+
+#~ msgid ""
+#~ "This will make Shashin sync all your albums automatically on a daily "
+#~ "basis. NOTE: This may fail if you have several hundered albums, and/or "
+#~ "several hundred photos per album."
+#~ msgstr ""
+#~ "Esto hará que Shashin sincronice todos sus álbumes diariamente de forma "
+#~ "automática. NOTA: Esto puede fallar si tiene varios cintos de álbumes, "
+#~ "y / o varios cientos de fotos por álbum."
+
+#~ msgid "Add to photo caption:"
+#~ msgstr "Añadir al pie de foto:"
+
+#~ msgid "Album Title:"
+#~ msgstr "Título del álbum:"
+
+#~ msgid "Date only"
+#~ msgstr "Solamente la fecha"
+
+#~ msgid "All"
+#~ msgstr "Todo"
+
+#~ msgid ""
+#~ "Album titles are prefixed to all captions. Dates are appended to expanded "
+#~ "view captions only. EXIF data is appended to Highslide captions only, and "
+#~ "includes the camera make, model, fstop, focal length, exposure time, and "
+#~ "ISO."
+#~ msgstr ""
+#~ "Los títulos de álbumes tienen un prefijo en todos los pie de foto. Las "
+#~ "fechas son agregadas y mostradas solamente en los pie de foto. Los datos "
+#~ "EXIF se anexan a las descripciones de Highslide solamente, e incluyen la "
+#~ "marca de la cámara, modelo, fStop, longitud focal, tiempo de exposición, "
+#~ "y la ISO."
+
+#~ msgid "Image div padding:"
+#~ msgstr "Padding del div de la imagen:"
+
+#~ msgid "Make this 2x the '.shashin_image img' padding value in shashin.css"
+#~ msgstr "Haga el 2x valor de separación '.shashin_thumb img' en shashin.css"
+
+#~ msgid ""
+#~ "The width of your theme's content area in pixels, minus any padding. If "
+#~ "you use the word 'max' for the size in your Shashin tags, Shashin will "
+#~ "use the closest, smaller supported Picasa size for the images. You can "
+#~ "use 'max' for the image size with [sthumbs] and other tags. Shashin "
+#~ "estimates 10px of total horizontal margin/padding per image."
+#~ msgstr ""
+#~ "El ancho del área de contenido de su tema en píxeles, menos los márgenes. "
+#~ "Si utiliza la palabra 'max'  para el tamaño, en sus etiquetas de Shashin, "
+#~ "usará el más cercano, más pequeño que admite Picasa para las imágenes. "
+#~ "Usted puede utilizar 'max' para el tamaño de la imagen con [sthumbs] y "
+#~ "otras etiquetas. Shashin asigna por defecto 10px de separación total "
+#~ "horizontal / vertical por imagen."
+
+#~ msgid "At Picasa, in same browser window"
+#~ msgstr "En Picasa, en la misma ventana del navegador"
+
+#~ msgid "At Picasa, in a new browser window"
+#~ msgstr "En Picasa, en una nueva ventana del navegador"
+
+#~ msgid "Use Other Viewer (e.g. Lightbox)"
+#~ msgstr "Usar otro visor (ej. Lightbox)"
+
+#~ msgid "Do not make thumbnails clickable"
+#~ msgstr "No convertir las miniaturas en seleccionables"
+
+#~ msgid ""
+#~ "When using the [salbumthumbs] or [salbumlist] tags, these settings "
+#~ "control how the photos in an album are displayed on your site when an "
+#~ "album thumbnail is clicked."
+#~ msgstr ""
+#~ "Cuando se utilizan las etiquetas [salbumthumbs] o [salbumlist], estas "
+#~ "configuraciones controlan la forma en que se mostrarán las fotos de un "
+#~ "álbum en su sitio cuando se hace click en una miniatura."
+
+#~ msgid ""
+#~ "This determines the 'maximum dimension' of the thumbnails. This size is "
+#~ "applied to either the height or the width (whichever is greater). The "
+#~ "sizes listed in the drop-down menu are the only ones supported by Picasa. "
+#~ "Note that the sizes"
+#~ msgstr ""
+#~ "Esto determina la 'dimensión máxima' de las miniaturas. Este tamaño se "
+#~ "aplica a la altura o el ancho (el que sea mayor). Los tamaños que se "
+#~ "indican en el menú desplegable son los únicos soportados por Picasa. "
+#~ "Tenga en cuenta los tamaños"
+
+#~ msgid ""
+#~ "The maximum number of columns for displaying the album photos. You will "
+#~ "want to take into account the 'thumbnail size' you selected above, to "
+#~ "make sure the overall display is not too wide for your WordPress theme."
+#~ msgstr ""
+#~ "El número máximo de columnas con fotos del álbum para mostrar. Usted "
+#~ "tendrá que tomar en cuenta el 'tamaño de las miniaturas' que haya "
+#~ "seleccionado anteriormente, para asegurarse de que la pantalla total no "
+#~ "es demasiado amplia para su tema de WordPress."
+
+#~ msgid "Select the display order for the photos."
+#~ msgstr "Seleccione el orden de presentación para las fotos."
+
+#~ msgid "Photos per page:"
+#~ msgstr "Fotos por página:"
+
+#~ msgid ""
+#~ "The maximum number of photos to show per page. Leave blank to show all "
+#~ "album photos on one page."
+#~ msgstr ""
+#~ "El número máximo de fotos para mostrar por página. Deja en blanco para "
+#~ "mostrar todas las fotos del álbum en una página."
+
+#~ msgid "Display album description:"
+#~ msgstr "Mostrar la descripción del álbum:"
+
+#~ msgid ""
+#~ "The album title will appear above the photos. You can choose whether to "
+#~ "also display the album description, after the title."
+#~ msgstr ""
+#~ "El título del álbum aparecerá por encima de las fotos. Usted puede elegir "
+#~ "si se debe mostrar también la descripción del álbum, después del título."
+
+#~ msgid "Highslide image size:"
+#~ msgstr "Tamaño de la imagen en Highslide:"
+
+#~ msgid ""
+#~ "The maximum size to use for displaying the photos. See 'Thumbnail size' "
+#~ "above for more information."
+#~ msgstr ""
+#~ "El tamaño máximo a utilizar para la visualización de las fotos. Mire "
+#~ "debajo para más información sobre el 'Tamaño miniatura'."
+
+#~ msgid "Highslide slideshow image display time:"
+#~ msgstr ""
+#~ "Tiempo de exhibición de cada imagen en la presentación de diapositivas de "
+#~ "Highslide:"
+
+#~ msgid ""
+#~ "Whether to start over from the first slide when going to the next from "
+#~ "the last slide."
+#~ msgstr ""
+#~ "Empieza desde la primera diapositiva, luego la siguiente hasta llegar a "
+#~ "la última diapositiva."
+
+#~ msgid "Highslide video dimensions:"
+#~ msgstr "Dimensiones del video en Highslide:"
+
+#~ msgid "Width:"
+#~ msgstr "Ancho:"
+
+#~ msgid ""
+#~ "If you select Highslide for viewing images, it will also be used for "
+#~ "displaying videos. This controls the height and width of the embedded "
+#~ "video (unlike images, the dimensions cannot be calculated on the fly). A "
+#~ "4:3 (width:height) ratio is common for videos."
+#~ msgstr ""
+#~ "Si selecciona Highslide para ver las imágenes, también se utilizará para "
+#~ "la visualización de videos. Controla la altura y la ancho del vídeo (a "
+#~ "diferencia de las imágenes, las dimensiones no se puede calcular sobre la "
+#~ "marcha). Un  formato 4 : 3 (ancho : alto) es la medida común para los "
+#~ "vídeos."
+
+#~ msgid "Outline type:"
+#~ msgstr "Esquema del tipo:"
+
+#~ msgid "Controller Position:"
+#~ msgstr "Posición de los controles:"
+
+#~ msgid "Where to position the slideshow control bar."
+#~ msgstr ""
+#~ " Cuál será la posición de la barra de control del pase de diapositivas."
+
+#~ msgid "Save Options"
+#~ msgstr "Guardar las configuraciones"
+
+#~ msgid "Uninstall Shashin?"
+#~ msgstr "¿Desea desinstalar Shashin"
+
+#~ msgid ""
+#~ "Check this box if you want to completely remove Shashin. <strong>This "
+#~ "will permanently break any Shashin tags that you still have in your posts "
+#~ "or pages.</strong> After uninstalling, you can then deactivate Shashin on "
+#~ "your plugins management page."
+#~ msgstr ""
+#~ "Marque esta casilla si desea eliminar por completo Shashin. <strong> Esto "
+#~ "quitará permanentemente cualquier etiqueta Shashin que usted todavía "
+#~ "tenga en sus artículos o páginas. </ strong> Después de la "
+#~ "desinstalación, puede desactivar Shashin en su página de administración "
+#~ "de plugins."
+
+#~ msgid "Are you sure you want to uninstall Shashin?"
+#~ msgstr "¿Está seguro que desea desinstalar Shashin?"
+
+#~ msgid ""
+#~ "If you want to display all your albums, indicate how to order them: "
+#~ "options are 'pub_date', 'title', or 'last_updated' (add ' desc' for "
+#~ "reverse ordering)."
+#~ msgstr ""
+#~ "If you want to display all your albums, indicate how to order them: "
+#~ "options are 'pub_date', 'title', or 'last_updated' (add ' desc' for "
+#~ "reverse ordering).Si desea mostrar todos sus álbumes, indique el criterio "
+#~ "para ordenarlos: las opciones son 'pub_date', 'title', o "
+#~ "'last_updated'  (add ' desc' para revertir el orden)."
+
+#~ msgid ""
+#~ "<strong>- OR -</strong> If you want only certain albums, enter their "
+#~ "album keys instead, for example '12|22|14|17'"
+#~ msgstr ""
+#~ "<strong> - O - </ strong> Si desea que se muestren sólo algunos álbumes, "
+#~ "introduzca sus IDs correspondientes, por ejemplo '12|22|14|17'"
+
+#~ msgid "Keys or Sort"
+#~ msgstr "Clase u orden"
+
+#~ msgid "Max No. of Columns"
+#~ msgstr "Máximo No. de columnas"
+
+#~ msgid "Show Pub. Date"
+#~ msgstr "Mostrar la fecha de publicación"
+
+#~ msgid "Shashin Admin"
+#~ msgstr "Administración de Shashin"
+
+#~ msgid ""
+#~ "See the <a href='#ref'>quick reference</a> below for help with Shashin "
+#~ "photo tags. Click a column header to order the photo list by that column "
+#~ "(and click again to reverse the order)."
+#~ msgstr ""
+#~ "Consulte la <a href='#ref'>referencia rápida a continuación</a> para "
+#~ "obtener ayuda con las etiquetas de fotos de Shashin. Haga click en un "
+#~ "encabezado de columna para ordenar la lista de fotos de esa columna (y "
+#~ "para invertir el orden haga click de nuevo)."
+
+#~ msgid "Markup"
+#~ msgstr "Marcado"
+
+#~ msgid "Photo Tags Quick Reference"
+#~ msgstr "Referencia rápida de etiquetas en fotos"
+
+#~ msgid "<strong>Valid Picasa image sizes:</strong> "
+#~ msgstr "<strong>Dimensiones válidas para imagen de Picasa:</strong> "
+
+#~ msgid "For a cropped square image, use sizes"
+#~ msgstr ""
+#~ "Para obtener una imagen recortada cuadrada, use los siguientes tamaños"
+
+#~ msgid "Display a single image or video"
+#~ msgstr "Mostrar una imagen individual o un video"
+
+#~ msgid "[simage=photo_key,max_size,caption_yn,position,clear,alt_thumb]"
+#~ msgstr "[simage=photo_key,max_size,caption_yn,position,clear,alt_thumb]"
+
+#~ msgid ""
+#~ "Example: [simage=17,max,y,center] Photo with Shashin key 17, maximum "
+#~ "possible size, show the caption, centered (the size of the image depends "
+#~ "on the width of your theme's content area)"
+#~ msgstr ""
+#~ "Ejemplo: [simage=17,max,y,center] Foto con ID Shashin 17, máximo tamaño "
+#~ "posible, mostrar el título, centrado (el tamaño de la imagen depende de "
+#~ "la anchura del área de contenido de su tema)"
+
+#~ msgid ""
+#~ "Example: [simage=22,200,n,left,none,33] Video with Shashin key 22, size "
+#~ "of 200 pixels, no caption, float left, do not clear margins, use photo "
+#~ "with Shashin key 33 as the thumbnail"
+#~ msgstr ""
+#~ "Ejemplo: [simage=22,200,n,left,none,33] Video con Shashin ID 22, tamaño "
+#~ "de 200 píxeles, sin título, flotando a la izquierda, sin márgenes, usando "
+#~ "la foto con el Shashin ID 33 como la miniatura"
+
+#~ msgid ""
+#~ "Notes: alt_thumb is especially useful for videos when you don't want to "
+#~ "use the thumbnail generated by Picasa"
+#~ msgstr ""
+#~ "Notas: alt_thumb es especialmente útil para vídeos cuando no se desea "
+#~ "utilizar la imagen en miniatura generada por Picasa"
+
+#~ msgid "Display a group of thumbnails"
+#~ msgstr "Mostrar un grupo de miniaturas"
+
+#~ msgid ""
+#~ "[sthumbs=photo_key1|photo_key2|etc,max_size,max_cols,caption_yn,float,"
+#~ "clear]"
+#~ msgstr ""
+#~ "[sthumbs=photo_key1|photo_key2|etc,max_size,max_cols,caption_yn,float,"
+#~ "clear]"
+
+#~ msgid ""
+#~ "Example: [sthumbs=5|202|115|84|33|189,160,2,n,right] Display photos with "
+#~ "Shashin keys 5, 202, 115, 84, 33, and 189, size of 160 pixels for each "
+#~ "image, display in 2 columns, no captions, float right (this is a 2x3 grid "
+#~ "of pictures, floating to the right of the main content area)"
+#~ msgstr ""
+#~ "Ejemplo: [sthumbs=5|202|115|84|33|189,160,2,n,right] muestra las fotos "
+#~ "con los Shashin IDs 5, 202, 115, 84, 33, y 189, tamaño de 160 píxeles por "
+#~ "cada imagen, la pantalla en dos columnas, sin subtítulos, flotando a la "
+#~ "derecha (esta es una cuadrícula de 2x3 de cuadros, flotando a la derecha "
+#~ "del área de contenido principal)"
+
+#~ msgid ""
+#~ "Example: [sthumbs=5|202|115|84,max,2,y,center] Display photos with "
+#~ "Shashin keys 5, 202, 115, and 84, use the maximum possible size, 2 "
+#~ "columns, show captions, centered (the size of the images depends on the "
+#~ "width of your theme's content area)"
+#~ msgstr ""
+#~ "Ejemplo: [sthumbs=5|202|115|84,max,2,y,center] mostrará las fotos con los "
+#~ "Shashin IDs 5, 202, 115, y 84, utilizando el tamaño máximo posible, 2 "
+#~ "columnas, alineado, centrado (el tamaño de las imágenes depende de la "
+#~ "anchura del área de contenido de su tema)"
+
+#~ msgid "Display random images and videos"
+#~ msgstr "Mostrar imágenes y videos de forma aleatoria"
+
+#~ msgid ""
+#~ "[srandom=source,max_size,max_cols,how_many,caption_yn,position,clear]"
+#~ msgstr ""
+#~ "[srandom=source,max_size,max_cols,how_many,caption_yn,position,clear]"
+
+#~ msgid ""
+#~ "Example: [srandom=3|7|9,288,2,6,n,left] Pick random photos from albums "
+#~ "with Shashin keys 3, 7, and 9, size of 288 pixels for each image, display "
+#~ "in 2 columns, 6 pictures, no captions, float left (this is a 2x3 grid of "
+#~ "pictures, floating to the left of the main content)"
+#~ msgstr ""
+#~ "Example: [srandom=3|7|9,288,2,6,n,left] Pick random photos from albums "
+#~ "with Shashin keys 3, 7, and 9, size of 288 pixels for each image, display "
+#~ "in 2 columns, 6 pictures, no captions, float left (this is a 2x3 grid of "
+#~ "pictures, floating to the left of the main content)Ejemplo: [srandom=3|7|"
+#~ "9,288,2,6,n,left] Escoja al azar las fotos de los álbumes con los Shashin "
+#~ "IDs 3, 7 y 9, de 288 píxeles cada imagen, mostrar en dos columnas, 6 "
+#~ "fotos, sin subtítulos, flotan a la izquierda (se trata de una cuadrícula "
+#~ "de 2x3 de cuadros, flotando a la izquierda del contenido principal)"
+
+#~ msgid ""
+#~ "Example: [srandom=any,160,max,10,y,center] Pick random photos from any "
+#~ "album, size of 160 pixels for each image, create the maximum number of "
+#~ "columns possible, show captions, centered (the number of columns depends "
+#~ "on the width of your theme's content area)"
+#~ msgstr ""
+#~ "Ejemplo: [srandom=any,160,max,10,y,center] Escoja al azar fotos  de "
+#~ "cualquier álbum, de 160 píxeles cada imagen, indica el número máximo de "
+#~ "columnas posibles, mostrar títulos, centrada (el número de columnas "
+#~ "depende del ancho del área de contenido de su tema)"
+
+#~ msgid "Display the newest images and videos"
+#~ msgstr "Mostrar las últimas imágenes y videos"
+
+#~ msgid ""
+#~ "[snewest=source,max_size,max_cols,how_many,caption_yn,position,clear]"
+#~ msgstr ""
+#~ "[snewest=source,max_size,max_cols,how_many,caption_yn,position,clear]"
+
+#~ msgid "See the srandom examples above - the snewest tag works the same way"
+#~ msgstr ""
+#~ "Vea los ejemplos de srandom arriba - la etiqueta snewest funciona del "
+#~ "mismo modo"

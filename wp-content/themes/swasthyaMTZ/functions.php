@@ -597,6 +597,26 @@ function mi_inicio() {
 		wp_deregister_script('jquery');
 		wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js', false, '1.3.2');
 		wp_enqueue_script('jquery');
+
+		wp_deregister_style('swasthyaMTZ');
+		wp_register_style('swasthyaMTZ', 'http://yogaenmartinez.com.ar/stylesheets/combined.css', false, '1.0' );
+		wp_enqueue_style('swasthyaMTZ');
+
+		wp_deregister_style('swasthyaMTZ-ie');
+		wp_register_style('swasthyaMTZ-ie', 'http://yogaenmartinez.com.ar/stylesheets/combined-ie.css', array('swasthyaMTZ'), '1.0' );
+		wp_enqueue_style('swasthyaMTZ-ie');
+
+		wp_deregister_style('lightbox');
+		wp_register_style('lightbox', get_template_directory_uri() . '/css/jquery.lightbox-0.5.css', false, '1.0' );
+		wp_enqueue_style('lightbox');
+
+		wp_deregister_script('lightbox');
+		wp_register_script('lightbox', get_template_directory_uri() . '/js/jquery.lightbox-0.5.js', array('jquery'), '1.0' );
+		wp_enqueue_script('lightbox');
+
+		wp_deregister_script('swasthyaMTZ');
+		wp_register_script('swasthyaMTZ', get_template_directory_uri() . '/js/swasthyaMTZ.js', array('jquery'), '1.0' );
+		wp_enqueue_script('swasthyaMTZ');
 	}
 }
 add_action('init', 'mi_inicio');

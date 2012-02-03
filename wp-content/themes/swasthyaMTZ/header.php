@@ -69,18 +69,17 @@
 
 <body <?php body_class(); ?>>
 <div class="top-wrap-tour">
-  <div class="top">
-        <div class="logo">
-            <h1 style="margin:0;padding:0;">
-                <a href="/">
-                    <img src="http://yogaenmartinez.com.ar/images/logo-martinez.png" alt="Swásthya Yôga en Martínez">
-                </a>
-            </h1>
-        </div>
-        <div class="top-right proxima-nova-condensed">
-            <div><a href="http://yogaenmartinez.com.ar">Volver al sitio</a></div>
-        </div>
-  </div>
+	<div class="top">
+        <a href="/">
+          <h1 class="logo">
+              SwáSthya en Martínez
+          </h1>
+        </a>
+        <ul class="menu top-right proxima-nova-condensed">
+            <li><a href="http://yogaenmartinez.com.ar/images/horarios.png" id="horarios_lightbox_link">Horarios</a></li>
+            <li><a href="http://yogaenmartinez.com.ar">Volver al sitio</a></li>
+  		</ul>
+  	</div>
 </div>
 <div style="height:50px;"></div>
 
