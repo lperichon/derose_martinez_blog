@@ -31,8 +31,7 @@ define('DB_NAME', $creds['MYSQLS']['MYSQLS_DATABASE']);
 define('DB_USER', $creds['MYSQLS']['MYSQLS_USERNAME']);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'SV8PqHZ38ezmsxC');
-/* define('DB_PASSWORD', $creds['MYSQLS']['MYSQLS_PASSWORD']);*/
+define('DB_PASSWORD', $creds['MYSQLS']['MYSQLS_PASSWORD']);
 
 /** MySQL hostname */
 define('DB_HOST', $creds['MYSQLS']['MYSQLS_HOSTNAME']);
