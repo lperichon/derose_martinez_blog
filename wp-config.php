@@ -16,19 +16,18 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dep45dg8s6f');
-/* define('DB_NAME', 'derose_martinez_blog');*/
+define('DB_NAME', $creds['MYSQLS']['MYSQLS_DATABASE']);
 
 /** MySQL database username */
-define('DB_USER', 'dep45dg8s6f');
+define('DB_USER', $creds['MYSQLS']['MYSQLS_USERNAME']);
 /* define('DB_USER', 'root');*/
 
 /** MySQL database password */
 define('DB_PASSWORD', 'SV8PqHZ38ezmsxC');
-/* define('DB_PASSWORD', 'password');*/
+/* define('DB_PASSWORD', $creds['MYSQLS']['MYSQLS_PASSWORD']);*/
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', $creds['MYSQLS']['MYSQLS_HOSTNAME']);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
