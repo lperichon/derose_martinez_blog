@@ -14,13 +14,21 @@
  * @package WordPress
  */
 
+// read the credentials file
+$string = file_get_contents($_ENV['CRED_FILE'], false);
+if ($string == false) {
+    die('FATAL: Could not read credentials file');
+}
+
+// the file contains a JSON string, decode it and return an associative array
+$creds = json_decode($string, true);
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', $creds['MYSQLS']['MYSQLS_DATABASE']);
 
 /** MySQL database username */
 define('DB_USER', $creds['MYSQLS']['MYSQLS_USERNAME']);
-/* define('DB_USER', 'root');*/
 
 /** MySQL database password */
 define('DB_PASSWORD', 'SV8PqHZ38ezmsxC');
