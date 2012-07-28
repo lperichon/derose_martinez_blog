@@ -8,8 +8,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2011-08-12 09:37+0100\n"
-"Last-Translator: Marcel Bokhorst <marcel@bokhorst.biz>\n"
+"PO-Revision-Date: 2012-07-01 14:21+0100\n"
+"Last-Translator: Marcel Bokhorst\n"
 "Language-Team: Marcel Bokhorst\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
@@ -49,7 +49,7 @@ msgid "To get an App ID and App Secret you have to create a Facebook application
 msgstr "Voor een Toepassings-ID en App Secret moet u een Facebook applicatie maken"
 
 msgid "You have to fill in the following:"
-msgstr "U moet het volgende invullen:"
+msgstr "U dient het volgende in te vullen:"
 
 msgid "Click here to create"
 msgstr "Klik hier om te creëren"
@@ -88,7 +88,7 @@ msgid "First attached image"
 msgstr "Eerste gekoppelde afbeelding"
 
 msgid "Featured post image"
-msgstr "Featured post afbeelding"
+msgstr "Uitgelichte afbeelding"
 
 msgid "Let Facebook select"
 msgstr "Laat Facebook kiezen"
@@ -139,7 +139,7 @@ msgid "I have donated to this plugin:"
 msgstr "Ik heb gedoneerd voor deze plugin:"
 
 msgid "Administrator options"
-msgstr "Administrator opties"
+msgstr "Administrateur opties"
 
 msgid "Do not display notices:"
 msgstr "Toon geen meldingen:"
@@ -219,11 +219,20 @@ msgstr "Naam:"
 msgid "E-mail:"
 msgstr "E-mail:"
 
+msgid "Forum topic link:"
+msgstr "Forum onderwerp koppeling:"
+
+msgid "Mandatory"
+msgstr "Verplicht"
+
 msgid "Message:"
 msgstr "Bericht:"
 
 msgid "Send"
 msgstr "Stuur"
+
+msgid "Forum topic link is mandatory"
+msgstr "Forum onderwerp koppeling is verplicht"
 
 msgid "Debug information sent"
 msgstr "Debug informatie verzonden"
@@ -260,6 +269,9 @@ msgstr "De hyperlink titel zal worden verwijderd"
 
 msgid "Integrate comments from Facebook:"
 msgstr "Integreer commentaar van Facebook:"
+
+msgid "Comment trailer:"
+msgstr "Bericht naschrift:"
 
 msgid "Integrate likes from Facebook:"
 msgstr "Integreer 'vind ik leuk' van Facebook:"
@@ -419,6 +431,12 @@ msgstr "vind ik leuk"
 msgid "Exclude these categories:"
 msgstr "Sluit deze categorieën uit:"
 
+msgid "Exclude these tags:"
+msgstr "Sluit deze sleutelwoorden uit:"
+
+msgid "Exclude these authors:"
+msgstr "Sluit deze auteurs uit:"
+
 msgid "Image from User Photo plugin"
 msgstr "Afbeelding van User Photo plugin"
 
@@ -437,7 +455,13 @@ msgstr "Ik heb deze plugin beoordeeld:"
 msgid "If you like the Add Link to Facebook plugin, please rate it on <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />If the average rating is low, it makes no sense to support this plugin any longer.<br />You can disable this notice by checking the option \"I have rated this plugin\" on the <a href=\"[settings]\">settings page</a>."
 msgstr "Als u de Add Link to Facebook plugin goed vindt, beoordeelt u hem dan alstublieft op <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />Als de gemiddelde beoordeling laag is, is het niet zinvol om deze plugin te ondersteunen.<br />U kunt deze melding uitzetten door de optie \"Ik heb deze plugin beoordeeld\" op de  <a href=\"[settings]\">instellingen pagina</a>."
 
-msgid "Custom exerpt"
+msgid "Through a mishap on the WordPress.org systems, previous ratings for the plugin were lost.<br />If you've rated the plugin in the past, your rating was accidentally removed.<br />So if you would be so kind as to rate the plugin again, I'd appreciate it. Thanks!"
+msgstr "Door een ongeluk op de WordPress.org systemen, zijn de vorige beoordelingen voor de plugin verloren gegaan.<br />Uw eerdere beoordeling werd per ongeluk verwijderd.<br />Ik zou het het op prijs stellen als u zo vriendelijk wilt zijn om de plugin opnieuw te beoordelen. Bedankt!"
+
+msgid "Generated excerpt"
+msgstr "Gegenereerde samenvatting"
+
+msgid "Custom excerpt"
 msgstr "Maatwerk samenvatting"
 
 msgid "Use iframe in stead of XFBML:"
@@ -477,22 +501,22 @@ msgid "Show Facebook image/link"
 msgstr "Toon Facebook afbeelding/koppeling"
 
 msgid "Do not link to Facebook comment author:"
-msgstr "Koppel niet naar de auteur van Facebook berichten:"
+msgstr "Koppel niet naar de auteur van Facebook commentaar:"
 
 msgid "Disables displaying of Facebook avatars too"
 msgstr "Zet ook het tonen van Facebook avatars uit"
 
-msgid "and navigate to '<em>My Apps</em>' and then to '<em>Set Up New App</em>'"
-msgstr "en navigeer naar '<em>My Apps</em>' en dan naar '<em>Set Up New App</em>'"
+msgid "and navigate to '<em>Apps</em>' and then to '<em>Create New App</em>'"
+msgstr "en navigeer naar '<em>Apps</em>' en dan naar '<em>Create New App</em>'"
 
-msgid "Facebook locale"
-msgstr "Facebook locale"
+msgid "Facebook locale:"
+msgstr "Facebook locale:"
 
 msgid "Do not change if no need"
 msgstr "Niet veranderen wanneer niet nodig"
 
 msgid "Link Facebook comment to:"
-msgstr "Koppel Facebook berichten naar:"
+msgstr "Koppel Facebook commentaar naar:"
 
 msgid "Profile author"
 msgstr "Profiel auteur"
@@ -513,7 +537,7 @@ msgid "Facebook group"
 msgstr "Facebook groep"
 
 msgid "Link appearance"
-msgstr "Koppelingsverschijning"
+msgstr "Koppelingsuiterlijk"
 
 msgid "Facebook comments"
 msgstr "Facebook commentaar"
@@ -530,14 +554,17 @@ msgstr "Maximale tekst lengte met naschrift:"
 msgid "Default 10,000 characters"
 msgstr "Standaard 10.0000 karakters"
 
+msgid "Maximum comment length with trailer:"
+msgstr "Maximum bericht lengte met naschrift:"
+
 msgid "Facebook communication timeout:"
 msgstr "Facebook communicatie timeout:"
 
 msgid "Seconds"
 msgstr "Seconden"
 
-msgid "Default 30 seconds"
-msgstr "Standaard 30 seconden"
+msgid "Default 15 seconds"
+msgstr "Standaard 15 seconden"
 
 msgid "Please check if this is a correct, reachable e-mail address"
 msgstr "Controleer a.u.b. of dit een juist, bereikbaar e-mail adres is"
@@ -707,6 +734,9 @@ msgstr "Voer geen shortcodes voor teksten uit:"
 msgid "Do not execute filters for texts:"
 msgstr "Voer geen filters voor teksten uit:"
 
+msgid "Do not execute filters for comments:"
+msgstr "Voer geen filters voor commentaar uit:"
+
 msgid "Only this user can access the settings:"
 msgstr "Alleen deze gebruiker kan bij de instellingen:"
 
@@ -726,11 +756,272 @@ msgid "Show Facebook activity feed"
 msgstr "Toon Facebook activity feed"
 
 msgid "Refresh Facebook comments for:"
-msgstr "Ververs Facebook berichten voor:"
+msgstr "Ververs Facebook commentaar voor:"
 
 msgid "Days"
 msgstr "Dagen"
 
-msgid "Default 30 days"
-msgstr "Standaard 30 dagen"
+msgid "Default 7 days"
+msgstr "Standaard 7 dagen"
+
+msgid "Required capability to view Facebook comments:"
+msgstr "Vereiste capability om Facebook commentaar te zien:"
+
+msgid "Add meta box for these custom post types:"
+msgstr "Voeg meta box voor deze maatwerk berichttypes toe:"
+
+msgid "Use Heise social share privacy:"
+msgstr "Gebruik Heise social share privacy:"
+
+msgid "Information"
+msgstr "Informatie"
+
+msgid "Refresh Facebook comments in the background:"
+msgstr "Ververs Facebook commentaar op de achtergrond:"
+
+msgid "Using Wordress cron"
+msgstr "Met WordPress cron"
+
+msgid "Heise privacy policy URL:"
+msgstr "Heise privacy beleid URL:"
+
+msgid "Display automatically after post:"
+msgstr "Toon automatisch na het bericht:"
+
+msgid "Priority filter 'the_content':"
+msgstr "Prioriteit filter 'the_content':"
+
+msgid "Upgrade deactivates the plugin!"
+msgstr "Bijwerken deactiveert de plugin!"
+
+msgid "See all pages:"
+msgstr "Toon alle pagina's:"
+
+msgid "Check this too if you want to add as page owner"
+msgstr "Zet dit ook aan als u wilt toevoegen als pagina-eigenaar"
+
+msgid "Do not include Facebook script:"
+msgstr "Neem Facebook script niet op:"
+
+msgid "In case of conflicts with other Facebook plugins"
+msgstr "In het geval van conflicten met andere Facebook plugins"
+
+msgid "Picture"
+msgstr "Afbeelding"
+
+msgid "Page/group"
+msgstr "Pagina/groep"
+
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+msgid "Comments"
+msgstr "Commentaar"
+
+msgid "Like button"
+msgstr "Like button"
+
+msgid "Like box"
+msgstr "Like box"
+
+msgid "Comments plugin"
+msgstr "Comments plugin"
+
+msgid "Face pile"
+msgstr "Face pile"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Activity feed"
+msgstr "Activity feed"
+
+msgid "Common"
+msgstr "Gemeenschappelijk"
+
+msgid "Misc."
+msgstr "Diverse"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "First authorize the plugin"
+msgstr "Authoriseer eerst de plugin"
+
+msgid "Only for administrators"
+msgstr "Alleen voor administrateurs"
+
+msgid "Setup guide & user manual"
+msgstr "Handleidingen"
+
+msgid "No tab pages"
+msgstr "Geen tab pagina's"
+
+msgid "Debug:"
+msgstr "Debug:"
+
+msgid "Use category ID's"
+msgstr "Gebruik categorie ID's"
+
+msgid "Use login names"
+msgstr "Gebruik login namen"
+
+msgid "Donate in EUR"
+msgstr "Doneer in EUR"
+
+msgid "Show"
+msgstr "Toon"
+
+msgid "Did you check if your problem is described in <a href=\"[FAQ]\" target=\"_blank\">the FAQ</a> ?"
+msgstr "Heeft u gecontroleerd of uw probleem is beschreven in <a href=\"[FAQ]\" target=\"_blank\">de FAQ</a> ?"
+
+msgid "Default 'article'"
+msgstr "Standaard 'article'"
+
+msgid "Maximum number:"
+msgstr "Maximum aantal:"
+
+msgid "Show link to the added link on Facebook:"
+msgstr "Toon koppeling naar koppeling op Facebook:"
+
+msgid "Add also to pages:"
+msgstr "Voeg ook toe aan pagina's:"
+
+msgid "This option is only available in"
+msgstr "Deze optie is alleen beschikbaar in"
+
+msgid "Code accepted"
+msgstr "Code geaccepteerd"
+
+msgid "No asynchronous Facebook script:"
+msgstr "Geen asynchroon Facebook script:"
+
+msgid "Does not work for groups"
+msgstr "Werkt niet voor groepen"
+
+msgid "Privacy:"
+msgstr "Privacy:"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Everyone"
+msgstr "Iedereen"
+
+msgid "All friends"
+msgstr "Alle vrienden"
+
+msgid "Network friends"
+msgstr "Vrienden in het netwerk"
+
+msgid "Friends of friends"
+msgstr "Vrienden van vrienden"
+
+msgid "Only me"
+msgstr "Alleen ik"
+
+msgid "Only works for your personal wall"
+msgstr "Werk alleen voor je persoonlijke pagina"
+
+msgid "Personal"
+msgstr "Persoonlijk"
+
+msgid "Hide post submit additions too:"
+msgstr "Verberg ook bericht bijwerk toevoegingen:"
+
+msgid "Pro version"
+msgstr "Pro versie"
+
+msgid "Add also to groups:"
+msgstr "Voeg ook toe aan groepen:"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Use links API instead of feed API:"
+msgstr "Gebruik links API i.p.v. feed API:"
+
+msgid "Extra URL parameter"
+msgstr "Extra URL parameter"
+
+msgid "For example for Google Analytics"
+msgstr "Bijvoorbeeld voor Google Analytics"
+
+msgid "Show everywhere using my settings"
+msgstr "Toon overal met mijn instellingen"
+
+msgid "Do not send pingbacks and trackbacks:"
+msgstr "Stuur geen pingbacks en trackbacks"
+
+msgid "Video URL"
+msgstr "Video URL"
+
+msgid "Some friends:"
+msgstr "Enige vrienden:"
+
+msgid "Comma-separated list of Facebook user IDs and friend list IDs"
+msgstr "Komma gescheiden lijst van Facebook gebruikers ID's en vriendenlijsten ID's"
+
+msgid "URL news feed icon:"
+msgstr "URL nieuws feed icoon:"
+
+msgid "Allow adding links with login:"
+msgstr "Sta toevoegen van koppelingen met login toe:"
+
+msgid "Group"
+msgstr "Groep"
+
+msgid "Not logged in with Facebook (anymore)"
+msgstr "Niet ingelogd met Facebook (meer)"
+
+msgid "Registration success URL:"
+msgstr "Registratie succes URL:"
+
+msgid "Use bundled CA certificates:"
+msgstr "Gebruik meegeleverde CA certificaten:"
+
+msgid "Due to limitations of Facebook not all links might work"
+msgstr "Vanwege beperkingen van Facebook zullen niet alle koppelingen werken"
+
+msgid "Picture size sent to Facebook:"
+msgstr "Grootte afbeelding die naar Facebook wordt gestuurd:"
+
+msgid "thumbnail"
+msgstr "Thumbnail"
+
+msgid "medium"
+msgstr "Medium"
+
+msgid "large"
+msgstr "Large"
+
+msgid "Do not refresh access token:"
+msgstr "Ververs het access token niet:"
+
+msgid "Only works for pictures from the media library"
+msgstr "Werkt alleen voor afbeeldingen uit de media bibliotheek"
+
+msgid "Do not add video to Facebook"
+msgstr "Voeg geen video toe aan Facebook"
+
+msgid "Doesn't work for groups!"
+msgstr "Werkt niet voor groepen!"
+
+msgid "There is no comment integration for the Facebook comments plugin!"
+msgstr "Er is geen integratie van berichten voor de Facebook berichten plugin!"
+
+msgid "Debug information not asked for or without valid support forum topic link will be ignored"
+msgstr "Debug informatie waar niet omgevraagd is of zonder geldige koppeling naar een forum onderwerp wordt genegeerd"
+
+msgid "Do not show social plugins in excerpts:"
+msgstr "Toon social plugins niet in samenvattingen:"
+
+msgid "For example like button"
+msgstr "Bijvoorbeeld like knop"
+
+msgid "Automatically generate excerpt:"
+msgstr "Genereer samenvatting automatisch:"
+
+msgid "Do not add video by default:"
+msgstr "Voeg standaard geen video toe:"
 

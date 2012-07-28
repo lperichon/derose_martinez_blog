@@ -1,6 +1,7 @@
 
 /*
-	Style sheet Add Link to Facebook WordPress Plugin
+	Style sheet Add Link to Facebook plugin
+	Copyright (c) 2011, 2012 by Marcel Bokhorst
 */
 
 /* Error/warning messages */
@@ -13,36 +14,29 @@
 	font-weight: bold;
 }
 
-/* Service messages */
-.al2fb_service {
-}
-
-.al2fb_service_msg {
-}
-
-.al2fb_service_time {
-	font-size: smaller;
-	color: gray;
-}
-
-/* Privacy notice top */
-.al2fb_spsn {
-	font-size: smaller;
-}
-
 /* Resources panel right */
 .al2fb_resources {
 	float: right;
 	padding: 10px;
 	width: 180px;
-	margin-top: 30px;
+	margin-top: 10px;
 	border: 1px solid #CCCCCC;
 	background-color: #FFFEEB;
 }
 
+.al2fb_ads img {
+	border: 0;
+	margin-top: 30px;
+}
+
+.al2fb_sidebar {
+	float: right;
+	width: 250px;
+}
+
 /* Options panel left */
 .al2fb_options {
-	float: left;
+	margin-right: 270px;
 }
 
 /* Application setup instructions */
@@ -90,6 +84,11 @@
 	font-size: smaller;
 }
 
+/* Debug info */
+#al2fb_debug_topic, #al2fb_debug_msg {
+	width: 420px;
+}
+
 /* Option borders */
 .al2fb_border {
 	border-width: 1px;
@@ -134,4 +133,74 @@
 /* Extra CSS */
 #al2fb_css {
 	font-family: monospace;
+}
+
+/* Tabs */
+ul.al2fb_tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+
+ul.al2fb_tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+
+ul.al2fb_tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 0 5px;
+	border: 1px solid #fff;
+	outline: none;
+	font-size: smaller;
+}
+
+ul.al2fb_tabs li a:hover {
+	background: #ccc;
+}
+
+html ul.al2fb_tabs li.active, html ul.al2fb_tabs li.active a:hover {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.al2fb_instructions, .al2fb_form, .al2fb_auth, .al2fb_config, .al2fb_tab_container {
+	display: inline-block;
+}
+
+/* Tab content */
+.al2fb_tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	float: left; width: 100%;
+	background: #fff;
+}
+
+.al2fb_tab_content {
+	padding: 0 10px;
+}
+
+#al2fb_video {
+	width: 98%;
+}
+
+select#al2fb_page.al2fb_select {
+	max-width: 250px;
 }

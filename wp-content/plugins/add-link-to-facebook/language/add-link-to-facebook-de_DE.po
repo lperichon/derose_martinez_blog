@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add Link to Facebook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-18 10:45+0100\n"
-"PO-Revision-Date: 2011-08-18 11:50+0100\n"
-"Last-Translator: Marcel Bokhorst <marcel@bokhorst.biz>\n"
-"Language-Team: Björn Deutschmann <cooleisbaer.funpic.de>\n"
+"POT-Creation-Date: 2012-05-24 11:45+0100\n"
+"PO-Revision-Date: 2012-05-24 21:43+0100\n"
+"Last-Translator: Marcel Bokhorst\n"
+"Language-Team: Wolfgang Tischer <literaturcafe.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,1016 +15,1729 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Textdomain-Support: yes\n"
-"X-Poedit-Basepath: C:\\Users\\Wolfgang\\Desktop\\translation\\add-link-to-facebook.1.37\n"
-"X-Poedit-SearchPath-0: C:\\Users\\Wolfgang\\Desktop\\translation\\add-link-to-facebook.1.37\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/wolfgang/Documents/poedit Übersetzungen/AL2FB\n"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:825
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:922
-msgid "Settings updated"
-msgstr "Einstellungen aktualisiert"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:845
-msgid "Authorized, go posting!"
-msgstr "Autorisiert. Schreiben Sie jetzt Artikel!"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:887
-msgid "Debug information sent"
-msgstr "Debug-Informationen gesendet"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:889
-msgid "Sending debug information failed"
-msgstr "Senden der Debug-Informationen fehlgeschlagen"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:986
-msgid "needs configuration"
-msgstr "Konfiguration erforderlich"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:990
-msgid "needs authorization"
-msgstr "Autorisierung erforderlich"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:996
-msgid "should be authorized again to show Facebook messages in the widget"
-msgstr "sollte erneut autorisiert werden, um Facebook-Nachrichten im Widget anzuzeigen"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1002
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1025
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1056
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1098
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1099
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1132
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1146
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2615
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2620
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:12
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:697
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:718
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:767
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:768
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1060
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2530
 msgid "Add Link to Facebook"
 msgstr "Add Link to Facebook"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1034
-msgid "If you like the Add Link to Facebook plugin, please rate it on <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />If the average rating is low, it makes no sense to support this plugin any longer.<br />You can disable this notice by checking the option \"I have rated this plugin\" on the <a href=\"[settings]\">settings page</a>."
-msgstr "Wenn Ihnen das Plugin \"Add Link to Facebook\" gefällt, bewerten Sie es bitte unter <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />Denn wenn das Durchschnittsurteil nicht gut ist, ist es nicht sinnvoll, das Plugin weiterhin zu unterstützen.<br />Sie können diesen Hinweis durch Auswahl der Option \"Ich habe das Plugin bewertet\" auf der <a href=\"[settings]\">Seite der Einstellungen</a> verbergen."
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1067
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2578
-msgid "Yes"
-msgstr "Ja"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1077
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2580
-msgid "No"
-msgstr "Nein"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1098
-msgid "Administration"
-msgstr "Administration"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1120
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1133
-msgid "Go to dashboard"
-msgstr "Zum Dashboard"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1160
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:26
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:335
 msgid "Only this user can access the settings:"
 msgstr "Nur dieser Nutzer hat Zugriff auf die Einstellungen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1219
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:122
 msgid "Your server may not allow external connections"
-msgstr "Ihr Server lässt keine externen Verbindungen zu"
+msgstr "Ihr Server lässt offenbar keine externen Verbindungen zu"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1227
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:133
 msgid "Please be aware that comment integration or showing Facebook messages in the widget could harm the privacy of other Facebook users!"
 msgstr "Bitte seien Sie sich bewusst, dass die Integration oder Anzeige der Facebook-Nachrichten im Widget die Privatsphäre anderer Facebook-Nutzer verletzten oder dies gegen die Datenschutzbestimmungen Ihres Landes verstoßen könnte!"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1235
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:142
 msgid "Authorization"
 msgstr "Autorisierung"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1238
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:148
 msgid "Plugin is authorized"
 msgstr "Plugin ist autorisiert"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1243
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:155
 msgid "Links will be added to"
 msgstr "Links werden hinzugefügt zu"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1260
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:172
 msgid "Authorize"
 msgstr "Autorisieren"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1288
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:187
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1483
+msgid "Donate in EUR"
+msgstr "Spenden in EUR"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:200
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:309
+msgid "Show"
+msgstr "Anzeigen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:221
 msgid "Easy setup"
 msgstr "Grundeinstellungen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1296
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:230
 msgid "To get an App ID and App Secret you have to create a Facebook application"
 msgstr "Um Anwendungsnummer und Anwendungs-Geheimcode zu erhalten, müssen Sie eine Facebook-Anwendung erstellen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1297
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:231
 msgid "You have to fill in the following:"
 msgstr "Sie müssen Folgendes ausfüllen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1300
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1339
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:234
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:281
 msgid "App Name:"
 msgstr "Name der Anwendung:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1301
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:235
 msgid "Anything you like, will appear as \"via ...\" below the message"
 msgstr "Beliebige Bezeichnung. Erscheint als &quot;via ...&quot; unter der Facebook-Notiz."
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1304
-msgid "Web > Site URL & Domain:"
-msgstr "Web &gt; Site-URL & Domain:"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:238
+msgid "Website > Site URL:"
+msgstr "Website > Site-URL"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1308
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:242
 msgid "Click here to create"
 msgstr "Zum Erstellen hier klicken"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1309
-msgid "and navigate to '<em>My Apps</em>' and then to '<em>Set Up New App</em>'"
-msgstr "und dann auf '<em>Meine Anwendungen</em>' und '<em>Erstelle eine neue Anwendung</em>'"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:243
+msgid "and navigate to '<em>Apps</em>' and then to '<em>Create New App</em>'"
+msgstr "und dann auf '<em>Anwendungen</em>' und '<em>Neue Anwendung erstellen (Create new App)</em>'"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1314
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:245
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1467
+msgid "Setup guide & user manual"
+msgstr "Einrichtung & Benutzerhandbuch (engl.)"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:251
 msgid "App ID:"
 msgstr "Anwendungsnummer:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1320
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:257
 msgid "App Secret:"
 msgstr "Anwendungs-Geheimcode:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1327
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:266
 msgid "Access token:"
 msgstr "Access token:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1352
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:294
 msgid "Share with all users on this site:"
-msgstr "Mit allen Nutzern der Site teilen:"
+msgstr "Mit allen WordPress-Benutzern teilen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1363
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1399
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1446
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1484
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1542
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1589
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1644
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1671
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1692
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1716
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1759
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1793
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1898
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1956
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2118
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:305
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:398
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:563
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:644
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:706
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:763
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:799
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:829
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:855
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:912
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:948
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1056
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1115
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1409
 msgid "Save"
 msgstr "Speichern"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1367
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:326
 msgid "Additional settings"
 msgstr "Zusätzliche Einstellungen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1369
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2698
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:329
+msgid "Picture"
+msgstr "Bild"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:330
+msgid "Page/group"
+msgstr "Seite/Gruppe"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:331
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:332
+msgid "Comments"
+msgstr "Kommentare"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:333
+msgid "Like button"
+msgstr "\"Gefällt mir\"-Button"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:334
+msgid "Like box"
+msgstr "\"Gefällt-mir\"-Box"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:335
+msgid "Comments plugin"
+msgstr "Kommentar-Plugin"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:336
+msgid "Face pile"
+msgstr "Face Pile"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:337
+msgid "Login"
+msgstr "Login"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:338
+msgid "Activity feed"
+msgstr "Activity Feed"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:339
+msgid "Common"
+msgstr "Allgemein"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:340
+msgid "Misc."
+msgstr "Div."
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:341
+msgid "Admin"
+msgstr "Admin"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:346
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1166
 msgid "Link picture"
 msgstr "Link-Bild"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1372
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:349
 msgid "Link picture:"
 msgstr "Link-Bild:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1374
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:351
 msgid "WordPress logo"
 msgstr "WordPress-Logo"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1375
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:352
 msgid "First attached image"
 msgstr "Erstes angehängtes Bild"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1376
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:353
 msgid "Featured post image"
 msgstr "Artikelbild"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1377
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:354
 msgid "Let Facebook select"
 msgstr "Lassen Sie Facebook wählen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1378
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:355
 msgid "First image in the post"
 msgstr "Erstes Bild im Artikel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1379
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:356
 msgid "Avatar of author"
 msgstr "Avatar des Autors"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1380
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:360
 msgid "Image from User Photo plugin"
 msgstr "Bild vom User-Photo-Plugin"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1381
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:364
 msgid "Custom picture below"
 msgstr "Folgendes benutzerdefiniertes Bild:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1385
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:368
 msgid "Custom picture URL:"
 msgstr "URL benutzerdefiniertes Bild:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1388
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:371
 msgid "At least 50 x 50 pixels"
 msgstr "Mindestens 50 x 50 Pixel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1392
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:375
 msgid "Default picture URL:"
 msgstr "Standardbild-URL:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1395
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:378
 msgid "Default WordPress logo"
 msgstr "Standard: WordPress-Logo"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1415
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:382
+msgid "Picture size sent to Facebook:"
+msgstr "An Facebook geschickte Bildgröße:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:384
+msgid "thumbnail"
+msgstr "Vorschaubild"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:385
+msgid "medium"
+msgstr "Mittel"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:386
+msgid "large"
+msgstr "Groß"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:387
+msgid "Only works for pictures from the media library"
+msgstr "Funktioniert nur mit Bildern der Mediathek"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:391
+msgid "URL news feed icon:"
+msgstr "URL des Nachrichtenfeed-Icons:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:394
+msgid "Does anybody know where this appears on Facebook?"
+msgstr "Weiß jemand, wo das bei Facebook auftaucht?"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:431
 msgid "Facebook page"
 msgstr "Facebook-Seite"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1418
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:434
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:890
 msgid "Add to page:"
 msgstr "Zur Seite hinzufügen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1438
-msgid "Add as page owner:"
-msgstr "Als Eigentümer der Seite hinzufügen:"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:439
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:460
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:895
+msgid "Personal"
+msgstr "Persönlich"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1441
-msgid "Requires manage pages permission"
-msgstr "Benötigt Berechtigung als Seiten-Administrator"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:453
+msgid "Add also to pages:"
+msgstr "Ebenso hinzufügen zu:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1442
-msgid "When checked links will be added as the page"
-msgstr "Wenn markiert, werden Links als Seite hinzugefügt"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:473
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:552
+msgid "This option is only available in"
+msgstr "Option nur verfügbar in"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1450
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:496
 msgid "Facebook group"
 msgstr "Facebook-Gruppe"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1453
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:499
 msgid "Use groups:"
 msgstr "Gruppen verwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1456
-msgid "Requires user groups permission"
-msgstr "Benötigt Benutzergruppenberechtigung"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1464
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:519
 msgid "Add to group:"
 msgstr "Zur Gruppe hinzufügen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1468
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1569
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2660
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:523
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:686
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1182
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:893
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1104
 msgid "None"
-msgstr "keinerlei Link"
+msgstr "Keine"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1492
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:536
+msgid "Add also to groups:"
+msgstr "Zusätzlich hinzufügen zur Gruppe:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:573
+msgid "First authorize the plugin"
+msgstr "Plugin zunächst autorisieren"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:580
 msgid "Link appearance"
-msgstr "Link-Optionen"
+msgstr "Link-Aussehen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1495
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:583
 msgid "Use site title as caption:"
 msgstr "Site-Titel als Bildunterschrift:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1502
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:590
 msgid "Use excerpt as message:"
 msgstr "Auszug als Beitrag verwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1508
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:596
 msgid "Text trailer:"
 msgstr "Text-Suffix:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1511
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:599
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:661
 msgid "For example \"Read more ...\""
 msgstr "Zum Beispiel &quot;Lesen Sie mehr ...&quot;"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1515
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:603
 msgid "Keep hyperlinks:"
 msgstr "Hyperlinks belassen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1518
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:606
 msgid "The hyperlink title will be removed"
-msgstr "Der Linktext wird entfernt, der eigentliche Hyperlink aber belassen"
+msgstr "Der Linktitel wird entfernt"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1522
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:610
 msgid "Add 'Share' link:"
 msgstr "\"Teilen\"-Link einfügen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1529
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:617
 msgid "Use short URL:"
 msgstr "Kurzlink verwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1532
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:620
 msgid "If available"
 msgstr "Falls verfügbar"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1536
-msgid "Add links for new pages:"
-msgstr "Neue Seiten auf Facebook posten:"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:624
+msgid "Privacy:"
+msgstr "Privatsphäre:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1545
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:626
+msgid "Only works for your personal wall"
+msgstr "Gilt nur für die eigene Pinnwand bzw. Chronik"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:627
+msgid "Default"
+msgstr "Standard"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:628
+msgid "Everyone"
+msgstr "Alle"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:629
+msgid "All friends"
+msgstr "Alle Freunde"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:630
+msgid "Network friends"
+msgstr "Erweitertes Netzwerk"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:631
+msgid "Friends of friends"
+msgstr "Freunde von Freunden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:632
+msgid "Only me"
+msgstr "Nur ich"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:633
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:636
+msgid "Some friends:"
+msgstr "Einige Freunde:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:639
+msgid "Comma-separated list of Facebook user IDs and friend list IDs"
+msgstr "Komma-getrennte Liste von Facebook User-IDs oder Freundeslisten-IDs"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:649
 msgid "Facebook comments"
 msgstr "Facebook-Kommentare"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1548
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:652
 msgid "Integrate comments from Facebook:"
 msgstr "Facebook-Kommentare virtuell integrieren:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1554
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:658
+msgid "Comment trailer:"
+msgstr "Kommentar-Suffix:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:665
 msgid "Post WordPress comments back to Facebook:"
 msgstr "WordPress-Kommentare auf Facebook posten:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1560
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:671
+msgid "Do not send pingbacks and trackbacks:"
+msgstr "Pingbacks und Trackbacks nicht senden:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:677
 msgid "Copy comments from Facebook to WordPress:"
 msgstr "Facebook-Kommentare als WordPress-Kommentare importieren:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1563
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:680
 msgid "Enables for example editing of Facebook comments"
 msgstr "Ermöglicht beispielsweise das Bearbeiten der Kommentare"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1567
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:684
 msgid "Link Facebook comment to:"
 msgstr "Kommentarverlinkung mit:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1570
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1573
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:687
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:690
 msgid "Disables displaying of Facebook avatars too"
 msgstr "Deaktiviert auch die Anzeige der Facebook-Avatare"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1571
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:688
 msgid "Profile author"
 msgstr "Facebook-Profil des Kommentierenden"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1572
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:689
 msgid "Added link"
-msgstr "Kommentar bei Facebook"
+msgstr "Hinzugefügter Link"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1577
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:689
+msgid "Does not work for groups"
+msgstr "Funktioniert nicht bei Gruppen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:694
 msgid "Integrate likes from Facebook:"
 msgstr "\"Gefällt mir\" von Facebook integrieren:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1583
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:700
 msgid "Show likers below the post text:"
 msgstr "Benutzer unter Artikel anzeigen, denen dieser gefällt:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1592
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:711
 msgid "Facebook like button"
 msgstr "Facebook \"Gefällt mir\"-Button"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1595
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:714
 msgid "Show Facebook like button:"
 msgstr "\"Gefällt mir\"-Button von Facebook anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1598
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1633
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1727
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1741
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1879
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1886
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:717
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:752
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:868
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:882
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1036
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1044
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1602
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:721
 msgid "Layout:"
 msgstr "Layout:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1604
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:723
 msgid "Standard"
 msgstr "Standard"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1605
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:724
 msgid "Button with count"
 msgstr "Button mit Zähler"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1606
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:725
 msgid "Box with count"
 msgstr "Box mit Zähler"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1610
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1651
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1684
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1708
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1766
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:729
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:772
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:814
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:847
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:921
 msgid "Width:"
 msgstr "Breite:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1613
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1654
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1687
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1711
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1726
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1734
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1769
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1776
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:732
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:775
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:782
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:817
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:850
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:867
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:875
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:924
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:931
 msgid "Pixels"
 msgstr "Pixel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1617
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:736
 msgid "Action:"
-msgstr "Button-Funktion als:"
+msgstr "Button-Funktion:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1619
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:738
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1081
 msgid "Like"
 msgstr "Gefällt mir"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1620
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:739
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1081
 msgid "Recommend"
 msgstr "Senden"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1624
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:743
 msgid "Show at the top of the post:"
 msgstr "Über dem Artikel anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1630
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:749
 msgid "Show Facebook send button:"
 msgstr "\"Senden\"-Button von Facebook anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1637
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:756
 msgid "Combine Facebook like and send buttons:"
 msgstr "\"Gefällt mir\"- und \"Senden\"-Button kombinieren:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1647
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:768
 msgid "Facebook like box"
 msgstr "Facebook-\"Like Box\""
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1658
-msgid "Disable like box header:"
-msgstr "Überschrift deaktivieren:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1664
-msgid "Disable like box stream:"
-msgstr "Stream deaktivieren:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1674
-msgid "Facebook comments plugin"
-msgstr "Facebook-Comments-Plugin"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1678
-msgid "Number of posts:"
-msgstr "Anzahl der Beiträge:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1695
-msgid "Facebook face pile"
-msgstr "Facebook-Face-Pile-Plugin"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1699
-msgid "Size:"
-msgstr "Größe:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1702
-msgid "Small"
-msgstr "Klein"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1703
-msgid "Large"
-msgstr "Groß"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1719
-msgid "Facebook login"
-msgstr "Facebook-Login:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1723
-msgid "Registration width:"
-msgstr "Breite der Registierung:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1731
-msgid "Login width:"
-msgstr "Login-Breite:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1738
-msgid "Login registration URL:"
-msgstr "Login Registrierungs-URL:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1745
-msgid "Login redirect URL:"
-msgstr "Login Weiterleitungs-URL:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1751
-msgid "Text or HTML when logged in:"
-msgstr "Text oder HTML wenn eingeloggt:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1762
-msgid "Facebook activity feed"
-msgstr "Facebook Activity Feed"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1773
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:779
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:928
 msgid "Height:"
 msgstr "Höhe:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1780
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:786
+msgid "Disable like box header:"
+msgstr "Überschrift deaktivieren:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:792
+msgid "Disable like box stream:"
+msgstr "Stream deaktivieren:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:804
+msgid "Facebook comments plugin"
+msgstr "Facebook-Comments-Plugin"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:808
+msgid "Number of posts:"
+msgstr "Anzahl der Beiträge:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:821
+msgid "Display automatically after post:"
+msgstr "Automatisch nach Artikel anzeigen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:824
+msgid "There is no comment integration for the Facebook comments plugin!"
+msgstr "Es gibt keine Kommentarintegration für das Facebook-Kommentar-Plugin!"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:834
+msgid "Facebook face pile"
+msgstr "Facebook-Face-Pile-Plugin"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:838
+msgid "Size:"
+msgstr "Größe:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:841
+msgid "Small"
+msgstr "Klein"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:842
+msgid "Large"
+msgstr "Groß"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:860
+msgid "Facebook login"
+msgstr "Facebook-Login:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:864
+msgid "Registration width:"
+msgstr "Breite der Registierung:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:872
+msgid "Login width:"
+msgstr "Login-Breite:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:879
+msgid "Login registration URL:"
+msgstr "Login Registrierungs-URL:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:886
+msgid "Registration success URL:"
+msgstr "URL für erfolgreiche Registrierung:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:892
+msgid "Login redirect URL:"
+msgstr "Login Weiterleitungs-URL:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:898
+msgid "Allow adding links with login:"
+msgstr "Erlaube das Hinzufügen von Links mit Login:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:904
+msgid "Text or HTML when logged in:"
+msgstr "Text oder HTML wenn eingeloggt:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:917
+msgid "Facebook activity feed"
+msgstr "Facebook Activity Feed"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:935
 msgid "Show header:"
 msgstr "Zeige Überschrift:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1786
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:941
 msgid "Show recommendations:"
 msgstr "Zeige Empfehlungen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1796
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:953
 msgid "Facebook common"
-msgstr "Facebook allgemein"
+msgstr "Allgemeine Einstellungen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1800
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:957
 msgid "Do not show on the home page:"
 msgstr "Nicht auf der Hauptseite zeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1806
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:963
 msgid "Do not show on posts:"
 msgstr "Nicht unter Artikeln zeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1812
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:969
 msgid "Do not show on pages:"
 msgstr "Nicht auf Seiten zeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1818
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:975
 msgid "Do not show in archives:"
 msgstr "Nicht im Archiv zeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1824
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:981
 msgid "Do not show in categories:"
 msgstr "Nicht in den Kategorien zeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1830
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:987
 msgid "Faces:"
 msgstr "Gesichter:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1836
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:993
 msgid "Maximum count of rows:"
 msgstr "Maximale Zeilenzahl:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1842
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:999
 msgid "Font:"
 msgstr "Schriftart:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1856
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1013
 msgid "Color scheme:"
 msgstr "Farbschema:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1858
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1015
 msgid "Light"
 msgstr "Hell"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1859
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1016
 msgid "Dark"
 msgstr "Dunkel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1863
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1020
 msgid "Border color:"
 msgstr "Rahmenfarbe:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1869
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1026
 msgid "Link to:"
 msgstr "Link zu:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1872
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1029
 msgid "Default the post or page"
 msgstr "Standardmäßig Artikel oder Seite"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1876
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1033
 msgid "Use Open Graph protocol:"
 msgstr "Open Graph-Protokoll verwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1883
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1040
 msgid "Open Graph protocol <em>og:type</em>:"
 msgstr "Open-Graph-Protokol <em>og:type</em>:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1890
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1043
+msgid "Default 'article'"
+msgstr "Standard \"Artikel\""
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1048
 msgid "Facebook administrators:"
 msgstr "Facebook-Administratoren:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1893
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1051
 msgid "Separate multiple administrators by a comma without spaces"
 msgstr "Trennen Sie mehrere Administratoren durch Kommas ohne Leerzeichen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1902
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1062
 msgid "Miscelaneous settings"
-msgstr "Verschiedene Einstellungen"
+msgstr "Diverse Einstellungen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1905
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1065
 msgid "Do not add link by default:"
 msgstr "\"Keinen Facebook-Link einfügen\" als Standard:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1911
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1071
 msgid "Don't show a summary in the post list:"
 msgstr "Zusammenfassung der Artikel nicht anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1917
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1077
+msgid "Add links for new pages:"
+msgstr "Neue Seiten auf Facebook posten:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1083
+msgid "Show link to the added link on Facebook:"
+msgstr "Verlinkung zum Facebook-Link anzeigen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1089
 msgid "Facebook character encoding:"
 msgstr "Facebook-Zeichenkodierung:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1920
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1092
 msgid "Default UTF-8; do not change if no need"
 msgstr "Standard UTF-8; nicht ändern wenn es nicht nötig ist"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1924
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1096
 msgid "Facebook locale:"
 msgstr "Facebook locale:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1927
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1099
 msgid "Do not change if no need"
 msgstr "Muss in der Regel nicht geändert werden"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1931
-msgid "Clean on deactivate:"
-msgstr "Bei Deaktivierung bereinigen:"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1934
-msgid "All data, except link id's"
-msgstr "Alle Daten, außer Link-IDs"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1938
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1103
 msgid "I have donated to this plugin:"
 msgstr "Ich habe für dieses Plugin gespendet:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1944
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1109
 msgid "I have rated this plugin:"
 msgstr "Ich habe dieses Plugin bewertet:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1950
-msgid "I don't want to support this plugin with the Sustainable Plugins Sponsorship Network:"
-msgstr "Ich möchte dieses Plugin nicht mit dem \"Sustainable Plugins Sponsorship Network\" unterstützen"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1960
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1123
 msgid "Administrator options"
 msgstr "Administrator-Optionen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1964
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1126
 msgid "Facebook communication timeout:"
 msgstr "Timeout für Facebook-Anfrage:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1967
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1129
 msgid "Seconds"
 msgstr "Sekunden"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1968
-msgid "Default 30 seconds"
-msgstr "Standard: 30 Sek."
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1130
+msgid "Default 15 seconds"
+msgstr "Standard: 15 Sekunden"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1972
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1134
 msgid "Do not display notices:"
 msgstr "Keine Hinweise anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1975
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1137
 msgid "Except on this page"
 msgstr "Außer auf dieser Seite"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:1979
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1141
 msgid "Required capability to use plugin:"
 msgstr "Erforderliche Berechtigung, um dieses Plugin nutzen zu können:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2005
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1167
+msgid "Hide post submit additions too:"
+msgstr "Verberge auch Zusätze zum Beitrag:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1173
+msgid "Required capability to view Facebook comments:"
+msgstr "Erforderliche Berechtigung, um Facebook-Kommentare zu sehen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1194
 msgid "Refresh Facebook comments every:"
 msgstr "Aktualisiere Facebook-Kommentare alle x Minuten:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2008
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1197
 msgid "Minutes"
 msgstr "Minuten"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2009
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1198
 msgid "Default every 10 minutes"
 msgstr "Standard: alle 10 Minuten"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2013
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1202
 msgid "Refresh Facebook comments for:"
 msgstr "Aktualisiere Facebook-Kommentare für:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2016
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1205
 msgid "Days"
 msgstr "Tage"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2017
-msgid "Default 30 days"
-msgstr "Standard: 30 Tage"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1206
+msgid "Default 7 days"
+msgstr "Standard: 7 Tage"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2021
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1210
+msgid "Refresh Facebook comments in the background:"
+msgstr "Aktualisiere Facebook-Kommentare im Hintergrund:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1213
+msgid "Using Wordress cron"
+msgstr "Benutze WordPress-Cron"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1217
 msgid "Maximum text length with trailer:"
-msgstr "Maximale Textlänge mit Präfix:"
+msgstr "Maximale Textlänge mit Suffix:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2024
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2032
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1220
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1228
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1236
 msgid "Characters"
 msgstr "Zeichen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2025
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1221
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1237
 msgid "Default 256 characters"
 msgstr "Standard: 256 Zeichen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2029
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1225
 msgid "Maximum Facebook text length:"
 msgstr "Maximale Facebook-Textlänge:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2033
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1229
 msgid "Default 10,000 characters"
 msgstr "Standard: 10.000 Zeichen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2037
-msgid "Exclude these custom post types:"
-msgstr "Ausgenommen diese benutzerdefinierten Nachrichtentypen:"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1233
+msgid "Maximum comment length with trailer:"
+msgstr "Maximale Kommentarlänge mit Suffix:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2040
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2047
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1241
+msgid "Exclude these custom post types:"
+msgstr "Ausgenommen diese benutzerdefinierten Artikelarten:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1244
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1252
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1259
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1267
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1274
 msgid "Separate by commas"
 msgstr "Getrennt durch Kommas"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2044
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1248
 msgid "Exclude these categories:"
 msgstr "Diese Kategorien ausschließen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2051
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1249
+msgid "Use category ID's"
+msgstr "Kategorie-IDs verwenden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1256
+msgid "Exclude these tags:"
+msgstr "Diese Schlagworte ausschließen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1263
+msgid "Exclude these authors:"
+msgstr "Diese Benutzer ausschließen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1264
+msgid "Use login names"
+msgstr "Login-Namen verwenden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1271
+msgid "Add meta box for these custom post types:"
+msgstr "Meta-Box bei diesen Custom-Post-Types hinzufügen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1278
 msgid "Do not verify the peer's certificate:"
 msgstr "Peer-Zertifikat nicht überprüfen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2054
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1281
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1288
 msgid "Try this in case of cURL error 60"
 msgstr "Versuche das im Fall von \"cURL error 60\""
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2058
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1285
+msgid "Use bundled CA certificates:"
+msgstr "Verwendet gebündelte CA-Zertifikate:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1292
 msgid "Execute shortcodes in widgets:"
 msgstr "Shortcode in Widgets ausführen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2064
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1298
 msgid "Do not execute shortcodes for texts:"
 msgstr "Shortcodes nicht für Texte ausführen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2070
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1304
 msgid "Do not execute filters for texts:"
 msgstr "Filter nicht auf Texte anwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2076
-msgid "Do not collect statistics:"
-msgstr "Keine Statistikdaten übermitteln:"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1310
+msgid "Do not execute filters for comments:"
+msgstr "Filter nicht auf Kommentare anwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2082
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1316
+msgid "Use Heise social share privacy:"
+msgstr "Verwende \"2-Klick-Empfehlungsbuttons\" von Heise:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1322
+msgid "Heise privacy policy URL:"
+msgstr "Eigene Datenschutzinfo-URL für Heise:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1328
+msgid "Priority filter 'the_content':"
+msgstr "Filtere zunächst 'the_content':"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1334
+msgid "No asynchronous Facebook script:"
+msgstr "Kein asynchrones Facebook-Skript:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1340
+msgid "Do not include Facebook script:"
+msgstr "Keine Facebook-Skripte einfügen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1343
+msgid "In case of conflicts with other Facebook plugins"
+msgstr "Bei möglichen Konflikten mit anderen Facebook-Plugins"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1347
+msgid "Use links API instead of feed API:"
+msgstr "Link-API anstelle der Feed-API verwenden:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1350
+msgid "Doesn't work for groups!"
+msgstr "Funktioniert nicht bei Gruppen!"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1354
+msgid "Do not refresh access token:"
+msgstr "Zugangs-Token nicht erneuern:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1360
+msgid "Clean on deactivate:"
+msgstr "Bei Deaktivierung bereinigen:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1362
+msgid "Upgrade deactivates the plugin!"
+msgstr "Upgrade deaktiviert das Plugin!"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1365
+msgid "All data, except link id's"
+msgstr "Alle Daten, außer Link-IDs"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1369
 msgid "Additional styling rules (CSS):"
 msgstr "Zusätzliche Designangaben (CSS):"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2090
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1379
 msgid "Debug options"
 msgstr "Debug-Optionen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2093
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1382
 msgid "Use site URL as request URI:"
 msgstr "Webseiten-URL als Anforderungs-URI verwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2099
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1388
 msgid "Do not use cURL:"
 msgstr "Keine cURL verwenden:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2105
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1394
 msgid "Use publish_post action:"
 msgstr "Benutze publish_post-Aktion:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2111
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1400
 msgid "Debug:"
 msgstr "Debug:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2138
-msgid "Privacy in the Sustainable Plugins Sponsorship Network"
-msgstr "Datenschutz im \"Sustainable Plugins Sponsorship Network\""
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1415
+msgid "Only for administrators"
+msgstr "Nur für Administratoren"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2139
-msgid "Disable"
-msgstr "Deaktivieren"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1422
+msgid "No tab pages"
+msgstr "Optionen nicht als Registerkarten zeigen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2149
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1465
 msgid "Resources"
 msgstr "Weitere Infos"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2151
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1468
 msgid "Frequently asked questions"
 msgstr "Häufig gestellte Fragen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2152
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1469
+msgid "Pro version"
+msgstr "Pro-Version"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1470
 msgid "Support page"
 msgstr "Support-Seite"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2153
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2178
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1471
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1526
 msgid "Debug information"
 msgstr "Debug-Informationen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2154
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1472
 msgid "About the author"
 msgstr "Über den Autor"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2155
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1473
 msgid "Other plugins"
 msgstr "Andere Plugins"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2185
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1533
 msgid "Name:"
 msgstr "Name:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2191
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1539
 msgid "E-mail:"
 msgstr "E-Mail:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2194
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1542
 msgid "Please check if this is a correct, reachable e-mail address"
 msgstr "Bitte prüfen, ob dies eine gültige und erreichbare E-Mail-Adresse ist"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2198
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1546
+msgid "Forum topic link:"
+msgstr "Forenthema-Link:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1549
+msgid "Mandatory"
+msgstr "Pflichteingabe"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1553
 msgid "Message:"
 msgstr "Nachricht:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2201
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1556
 msgid "Please describe your problem, even if you did before"
 msgstr "Bitte beschreiben Sie Ihr Problem, auch wenn Sie dies bereits zuvor getan haben"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2206
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1560
+msgid "Did you check if your problem is described in <a href=\"[FAQ]\" target=\"_blank\">the FAQ</a> ?"
+msgstr "Haben Sie nachgesehen, ob Ihr Problem bereits in den <a href=\"[FAQ]\" target=\"_blank\">häufig gestellten Fragen (FAQ)</a> erläutert wird ?"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-admin.php:1565
 msgid "Send"
 msgstr "Senden"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2531
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:579
+msgid "Settings updated"
+msgstr "Einstellungen aktualisiert"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:600
+msgid "Authorized, go posting!"
+msgstr "Autorisiert. Schreiben Sie jetzt Artikel!"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:633
+msgid "Forum topic link is mandatory"
+msgstr "Link zum Forenthema muss angegeben werden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:650
+msgid "Debug information sent"
+msgstr "Debug-Informationen gesendet"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:655
+msgid "Sending debug information failed"
+msgstr "Senden der Debug-Informationen fehlgeschlagen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:679
+msgid "needs configuration"
+msgstr "Konfiguration erforderlich"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:683
+msgid "needs authorization"
+msgstr "Autorisierung erforderlich"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:689
+msgid "should be authorized again to show Facebook messages in the widget"
+msgstr "sollte erneut autorisiert werden, um Facebook-Nachrichten im Widget anzuzeigen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:738
+msgid "If you like the Add Link to Facebook plugin, please rate it on <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />If the average rating is low, it makes no sense to support this plugin any longer.<br />You can disable this notice by checking the option \"I have rated this plugin\" on the <a href=\"[settings]\">settings page</a>."
+msgstr "Wenn Ihnen das Plugin \"Add Link to Facebook\" gefällt, bewerten Sie es bitte unter <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />Denn wenn das Durchschnittsurteil nicht gut ist, ist es nicht sinnvoll, das Plugin weiterhin zu unterstützen.<br />Sie können diesen Hinweis durch Auswahl der Option \"Ich habe das Plugin bewertet\" auf der <a href=\"[settings]\">Seite der Einstellungen</a> verbergen."
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:741
+msgid "Through a mishap on the WordPress.org systems, previous ratings for the plugin were lost.<br />If you've rated the plugin in the past, your rating was accidentally removed.<br />So if you would be so kind as to rate the plugin again, I'd appreciate it. Thanks!"
+msgstr "Aufgrund von Umstellungen im System von WordPress.org, sind ältere Bewertungen verloren gegangen.<br />Wenn Sie das Plugin in der Vergangenheit bewertet hatten, wurde dies versehentlich gelöscht.<br />Es wäre großartig, wenn Sie dieses Plugin erneut bewerten würden. Herzlichen Dank!"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:753
+msgid "Maximum number of sites exceeded"
+msgstr "Maximalzahl an Sites überschritten"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:767
+msgid "Administration"
+msgstr "Administration"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:794
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:910
+msgid "Group"
+msgstr "Gruppe"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:918
+msgid "Not logged in with Facebook (anymore)"
+msgstr "Nicht (mehr) bei Facebook eingeloggt"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:921
 msgid "Do not add link to Facebook"
 msgstr "Keinen Facebook-Link einfügen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2534
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:924
+msgid "Do not add video to Facebook"
+msgstr "Kein Video zu Facebook hinzufügen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:927
 msgid "Do not add like button"
 msgstr "Keinen \"Gefällt mir\"-Button einfügen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2537
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:930
 msgid "Do not integrate comments"
 msgstr "Kommentare nicht integrieren"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2542
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:937
 msgid "Update existing Facebook link"
 msgstr "Vorhandenen Facebook-Link aktualisieren"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2544
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:939
 msgid "Comments and likes will be lost!"
 msgstr "Kommentare und \"Gefällt mir\"-Angaben gehen verloren!"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2547
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:942
 msgid "Delete existing Facebook link"
 msgstr "Vorhandenen Facebook-Link löschen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2549
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:954
 msgid "Link on Facebook"
 msgstr "Link auf Facebook"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2554
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:961
+msgid "Due to limitations of Facebook not all links might work"
+msgstr "Aufgrund von FB-Beschränkungen könnten nicht alle Links funktionieren"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:969
 msgid "Clear error messages"
 msgstr "Fehlermeldungen löschen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2569
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:986
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:472
 msgid "Facebook"
 msgstr "Facebook"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2597
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1026
+msgid "No"
+msgstr "Nein"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1036
 msgid "comments"
 msgstr "Kommentare"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2604
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1046
 msgid "likes"
 msgstr "Gefällt mir"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2643
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1087
 msgid "No images in the media library for this post"
 msgstr "Keine Bilder in der Mediathek für diesen Artikel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2649
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1093
 msgid "Select link image:"
 msgstr "Linkbild wählen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2688
-msgid "Custom exerpt"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1141
+msgid "Custom excerpt"
 msgstr "Individueller Linktext"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:2694
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1147
 msgid "Custom text"
 msgstr "Individueller Text"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3128
-msgid "Share"
-msgstr "Teilen"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1154
+msgid "Extra URL parameter"
+msgstr "Zusätzlicher URL-Parameter"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3280
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook.php:196
-msgid "commented on"
-msgstr "kommentiert zu"
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1155
+msgid "For example for Google Anaylytics"
+msgstr "Zum Beispiel für Google Analytics"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3624
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3636
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:1162
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2124
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2138
 msgid "liked this post"
 msgid_plural "liked this post"
 msgstr[0] "gefällt dieser Artikel"
 msgstr[1] "gefällt dieser Artikel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3852
-msgid "WordPress user name"
-msgstr "WordPress-Benutzername"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3899
-msgid "Please enable third-party cookies"
-msgstr "Bitte Cookies von Drittanbietern zulassen"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3965
-msgid "Facebook registration failed"
-msgstr "Facebook-Registrierung fehlgeschlagen"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3972
-msgid "User registration disabled"
-msgstr "Nutzer-Registrierung deaktiviert"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3978
-msgid "Facebook e-mail address missing"
-msgstr "Die Facebook-E-Mail-Adresse fehlt"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3986
-msgid "E-mail address in use"
-msgstr "E-Mail-Adresse bereits verwendet"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:3994
-msgid "Facebook user ID missing"
-msgstr "Facebook-Nutzer-ID fehlt"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4081
-msgid "User not found"
-msgstr "Benutzer nicht gefunden"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4096
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4105
-msgid "Could not verify Facebook login"
-msgstr "Facebook-Login konnte nicht überprüft werden"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4157
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2146
 msgid "Facebook ID"
 msgstr "Facebook-ID"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4162
-msgid "What is my Facebook ID?"
-msgstr "Wie lautet meine Facebook-ID?"
-
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4223
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4294
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2209
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2322
 msgid "on Facebook"
 msgstr "via Facebook"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:4300
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-class.php:2328
 msgid "Liked this post"
 msgstr "Gefällt dieser Artikel"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5291
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:586
+msgid "Website"
+msgstr "Website"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:614
+msgid "Share"
+msgstr "Teilen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:842
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:897
+msgid "commented on"
+msgstr "kommentiert via"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1121
+msgid "Information"
+msgstr "Informationen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1274
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1438
+msgid "User registration disabled"
+msgstr "Nutzer-Registrierung deaktiviert"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1291
+msgid "WordPress user name"
+msgstr "WordPress-Benutzername"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1309
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1371
+msgid "Facebook App ID required"
+msgstr "Facebook App-ID erforderlich"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1342
+msgid "Please enable third-party cookies"
+msgstr "Bitte Cookies von Drittanbietern zulassen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1420
+msgid "Facebook registration failed"
+msgstr "Facebook-Registrierung fehlgeschlagen"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1444
+msgid "Facebook e-mail address missing"
+msgstr "Die Facebook-E-Mail-Adresse fehlt"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1459
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1561
+msgid "User not found"
+msgstr "Benutzer nicht gefunden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1498
+msgid "Could not verify Facebook registration"
+msgstr "Facebook-Registrierung konnte nicht überprüft werden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1576
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-int.php:1587
+msgid "Could not verify Facebook login"
+msgstr "Facebook-Login konnte nicht überprüft werden"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:356
 msgid "Title:"
 msgstr "Titel:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5295
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:361
 msgid "Show Facebook comments"
 msgstr "Zeige Facebook-Kommentare"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5297
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5305
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:363
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:372
+msgid "Maximum number:"
+msgstr "Maximalwert:"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:366
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:379
 msgid "Appearance depends on your theme!"
 msgstr "Das Aussehen hängt von Ihrem Theme ab!"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5300
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:370
 msgid "Show Facebook messages"
 msgstr "Facebook-Nachrichten anzeigen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5303
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:377
 msgid "Show comments on messages"
 msgstr "Kommentare zu den Nachrichten zeigen"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5308
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:383
 msgid "Show Facebook like button"
 msgstr "\"Gefällt mir\"-Button von Facebook anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5311
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:387
 msgid "Show Facebook like box"
 msgstr "Facebook-\"Like Box\" anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5314
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:391
 msgid "Show Facebook send button"
 msgstr "\"Senden\"-Button von Facebook anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5317
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:395
 msgid "Show Facebook comments plugin"
 msgstr "Zeige Facebook-Comments-Plugin"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5320
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:399
 msgid "Show Facebook face pile"
 msgstr "Zeige Facebook-Face-Pile-Plugin"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5323
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:403
 msgid "Show Facebook image/link"
 msgstr "Facebook-Bild/Link anzeigen:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5326
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:407
 msgid "Show Facebook registration"
 msgstr "Zeige Facebook-Registrierung:"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5329
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:411
 msgid "Show Facebook login"
 msgstr "Zeige Facebook-Login"
 
-#: C:\Users\Wolfgang\Desktop\translation\add-link-to-facebook.1.37/add-link-to-facebook/add-link-to-facebook-class.php:5332
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:415
 msgid "Show Facebook activity feed"
 msgstr "Zeige Facebook Activity Feed"
+
+#: /Users/wolfgang/Documents/poedit
+#: UÌbersetzungen/AL2FB/add-link-to-facebook/add-link-to-facebook-widget.php:419
+msgid "Show everywhere using my settings"
+msgstr "Zeige überall mit meinen Einstellungen"
+
+#~ msgid "See all pages:"
+#~ msgstr "Alle Seiten zeigen:"
+
+#~ msgid "Requires manage pages permission"
+#~ msgstr "Benötigt Berechtigung als Seiten-Administrator"
+
+#~ msgid "Check this too if you want to add as page owner"
+#~ msgstr ""
+#~ "Ebenfalls aktivieren, wenn Sie Elemente als Seiteninhaber hinzufügen "
+#~ "wollen"
+
+#~ msgid "Requires user groups permission"
+#~ msgstr "Benötigt Benutzergruppenberechtigung"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "What is my Facebook ID?"
+#~ msgstr "Wie lautet meine Facebook-ID?"
+
+#~ msgid "E-mail address in use"
+#~ msgstr "E-Mail-Adresse bereits verwendet"
+
+#~ msgid "Facebook user ID missing"
+#~ msgstr "Facebook-Nutzer-ID fehlt"
+
+#~ msgid "Be sure you to conform to the Facebook Platform Policies"
+#~ msgstr "Stellen Sie sicher, dass Sie die Facebook-Richtlinien einhalten"
+
+#~ msgid "Donate $25 or more to get this feature"
+#~ msgstr "Spenden Sie 25 Dollar oder mehr, um diese Funktion zu erhalten"
+
+#~ msgid "See the FAQ, question U25 for detailed information"
+#~ msgstr "Siehe FAQ Frage U25 für weitere Infos"
+
+#~ msgid "Comment integration, etc. for extra pages is not supported"
+#~ msgstr ""
+#~ "Kommentarintegration etc. für zusätzliche Seiten wird nicht unterstützt"
+
+#~ msgid "Go to dashboard"
+#~ msgstr "Zum Dashboard"
+
+#~ msgid ""
+#~ "I don't want to support this plugin with the Sustainable Plugins "
+#~ "Sponsorship Network:"
+#~ msgstr ""
+#~ "Ich möchte dieses Plugin nicht mit dem \"Sustainable Plugins Sponsorship "
+#~ "Network\" unterstützen"
+
+#~ msgid "Do not collect statistics:"
+#~ msgstr "Keine Statistikdaten übermitteln:"
+
+#~ msgid "Privacy in the Sustainable Plugins Sponsorship Network"
+#~ msgstr "Datenschutz im \"Sustainable Plugins Sponsorship Network\""
+
+#~ msgid "Disable"
+#~ msgstr "Deaktivieren"
+
+#~ msgid "Add as page owner:"
+#~ msgstr "Als Eigentümer der Seite hinzufügen:"
+
+#~ msgid "When checked links will be added as the page"
+#~ msgstr "Wenn markiert, werden Links als Seite hinzugefügt"
 
 #~ msgid "Use iframe in stead of XFBML:"
 #~ msgstr "Benutze iframe anstelle von XFBML:"
