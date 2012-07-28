@@ -18,6 +18,7 @@ delete_option( 'wp_twitter_failure' );
 delete_option( 'wp_supr_failure' );
 delete_option( 'wp_url_failure' );
 delete_option( 'wp_bitly_failure' );
+delete_option( 'wpt_curl_error' );
 
 // Blogroll options
 delete_option( 'jd-use-link-title' );
@@ -62,16 +63,11 @@ delete_option( 'bitlyapi' );
 
 // twitter compatible api
 delete_option( 'jd_api_post_status' );
-delete_option( 'jd-twitter-service-name' );
-delete_option( 'jd-twitter-char-limit' );	
-delete_option( 'jd_use_both_services'  );
-delete_option( 'x-pw' );
-delete_option( 'x-login' );
 delete_option('app_consumer_key');
 delete_option('app_consumer_secret');
 delete_option('oauth_token');
 delete_option('oauth_token_secret');
-		
+
 //dymamic analytics
 delete_option( 'jd_dynamic_analytics' );		
 delete_option( 'use_dynamic_analytics' );
@@ -86,5 +82,7 @@ delete_option( 'yourlslogin' );
 delete_option( 'jd_replace_character' );
 delete_option( 'jd_date_format' );
 delete_option( 'jd_keyword_format' );
-
+//Version
+delete_option( 'wp_to_twitter_version' );
+delete_option( 'wpt_authentication_missing' );
 }

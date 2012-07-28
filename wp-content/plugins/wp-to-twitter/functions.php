@@ -30,14 +30,14 @@ function jd_fetch_url( $url, $method='GET', $body='', $headers='', $return='body
 	$result = $request->request( $url , array( 'method'=>$method, 'body'=>$body, 'headers'=>$headers, 'user-agent'=>'WP to Twitter http://www.joedolson.com/articles/wp-to-twitter/' ) );
 	// Success?
 	if ( !is_wp_error($result) && isset($result['body']) ) {
-		if ( $result['code'] != 200 ) {
+		if ( $result['response']['code'] == 200 ) {
 			if ($return == 'body') {
 			return $result['body'];
 			} else {
 			return $result;
 			}
 		} else {
-			return $result['code'];
+			return $result['response']['code'];
 		}
 	// Failure (server problem...)
 	} else {
@@ -107,7 +107,7 @@ if ( !function_exists( 'mb_substr_replace' ) ) {
 }
 
 function print_settings() {
-global $version;
+global $wpt_version;
 
 $bitlyapi = ( get_option ( 'bitlyapi' ) != '' )?"Saved.":"Blank.";
 $yourlsapi = ( get_option ( 'yourlsapi' ) != '' )?"Saved.":"Blank.";
@@ -144,7 +144,6 @@ $options = array(
 	'yourlslogin'=>get_option( 'yourlslogin' ),	
 	'jd_keyword_format'=>get_option( 'jd_keyword_format' ),
 	
-	'use_tags_as_hashtags'=>get_option( 'use_tags_as_hashtags' ),	
 	'jd_strip_nonan'=>get_option( 'jd_strip_nonan' ),
 	'jd_replace_character'=>get_option( 'jd_replace_character' ),
 	'jd_max_tags'=>get_option('jd_max_tags'),
@@ -183,7 +182,7 @@ $options = array(
 	'twitterInitialised'=>get_option( 'twitterInitialised' )	
 );
 echo "<div class=\"settings\">";
-echo "<strong>Raw Settings Output: Version $version</strong>";
+echo "<strong>Raw Settings Output: Version $wpt_version</strong>";
 echo "<ol>";
 foreach ( $group as $key=>$value)  {
 	echo "<li><code>$key</code>:<ul>";
@@ -218,4 +217,161 @@ function wtt_option_selected($field,$value,$type='checkbox') {
 		$output = '';
 	}
 	return $output;
+}
+
+function wpt_date_compare($early,$late) {
+	$firstdate = strtotime($early);
+	$lastdate = strtotime($late);
+	if ($early <= $late ) { // if post_modified is before or equal to post_date
+		return 1;
+	} else {
+		return 0;
+	}	
+}
+
+function wpt_get_support_form() {
+global $current_user, $wpt_version;
+get_currentuserinfo();
+	$request = '';
+	// send fields for WP to Twitter
+	$license = ( get_option('wpt_license_key') != '' )?get_option('wpt_license_key'):'none'; 
+	$license = "License Key: ".$license; 
+	
+	$version = $wpt_version;
+	$wtt_twitter_username = get_option('wtt_twitter_username');
+	// send fields for all plugins
+	$wp_version = get_bloginfo('version');
+	$home_url = home_url();
+	$wp_url = get_bloginfo('wpurl');
+	$language = get_bloginfo('language');
+	$charset = get_bloginfo('charset');
+	// server
+	$php_version = phpversion();
+	
+	$curl_init = ( function_exists('curl_init') )?'yes':'no';
+	$curl_exec = ( function_exists('curl_exec') )?'yes':'no';
+	
+	// theme data
+	if ( function_exists( 'wp_get_theme' ) ) {
+	$theme = wp_get_theme();
+		$theme_name = $theme->Name;
+		$theme_uri = $theme->ThemeURI;
+		$theme_parent = $theme->Template;
+		$theme_version = $theme->Version;	
+	} else {
+	$theme_path = get_stylesheet_directory().'/style.css';	
+	$theme = get_theme_data($theme_path);
+		$theme_name = $theme['Name'];
+		$theme_uri = $theme['ThemeURI'];
+		$theme_parent = $theme['Template'];
+		$theme_version = $theme['Version'];
+	}
+	// plugin data
+	$plugins = get_plugins();
+	$plugins_string = '';
+		foreach( array_keys($plugins) as $key ) {
+			if ( is_plugin_active( $key ) ) {
+				$plugin =& $plugins[$key];
+				$plugin_name = $plugin['Name'];
+				$plugin_uri = $plugin['PluginURI'];
+				$plugin_version = $plugin['Version'];
+				$plugins_string .= "$plugin_name: $plugin_version; $plugin_uri\n";
+			}
+		}
+	$data = "
+================ Installation Data ====================
+==WP to Twitter==
+Version: $version
+Twitter username: $wtt_twitter_username
+$license
+
+==WordPress:==
+Version: $wp_version
+URL: $home_url
+Install: $wp_url
+Language: $language
+Charset: $charset
+
+==Extra info:==
+PHP Version: $php_version
+Server Software: $_SERVER[SERVER_SOFTWARE]
+User Agent: $_SERVER[HTTP_USER_AGENT]
+cURL Init: $curl_init
+cURL Exec: $curl_exec
+
+==Theme:==
+Name: $theme_name
+URI: $theme_uri
+Parent: $theme_parent
+Version: $theme_version
+
+==Active Plugins:==
+$plugins_string
+";
+	if ( isset($_POST['wpt_support']) ) {
+		$nonce=$_REQUEST['_wpnonce'];
+		if (! wp_verify_nonce($nonce,'wp-to-twitter-nonce') ) die("Security check failed");	
+		$request = ( !empty($_POST['support_request']) )?stripslashes($_POST['support_request']):false;
+		$has_donated = ( $_POST['has_donated'] == 'on')?"Donor":"No donation";
+		$has_read_faq = ( $_POST['has_read_faq'] == 'on')?"Read FAQ":false;
+		if ( function_exists( 'wpt_pro_exists' ) ) { $pro = " PRO"; } else { $pro = ''; }
+		$subject = "WP to Twitter$pro support request. $has_donated";
+		$message = $request ."\n\n". $data;
+		$from = "From: \"$current_user->display_name\" <$current_user->user_email>\r\n";
+
+		if ( !$has_read_faq ) {
+			echo "<div class='message error'><p>".__('Please read the FAQ and other Help documents before making a support request.','wp-to-twitter')."</p></div>";
+		} else if ( !$request ) {
+			echo "<div class='message error'><p>".__('Please describe your problem. I\'m not psychic.','wp-to-twitter')."</p></div>";
+		} else {
+			wp_mail( "plugins@joedolson.com",$subject,$message,$from );
+			if ( $has_donated == 'Donor' || $has_purchased == 'Purchaser' ) {
+				echo "<div class='message updated'><p>".__('Thank you for supporting the continuing development of this plug-in! I\'ll get back to you as soon as I can.','wp-to-twitter')."</p></div>";		
+			} else {
+				echo "<div class='message updated'><p>".__('I cannot provide free support, but will treat your request as a bug report, and will incorporate any permanent solutions I discover into the plug-in.','wp-to-twitter')."</p></div>";				
+			}
+		}
+	}
+	if ( function_exists( 'wpt_pro_exists' ) ) { $checked="checked='checked'"; } else { $checked=''; }
+		$admin_url = ( is_plugin_active('wp-tweets-pro/wpt-pro-functions.php') )?admin_url('admin.php?page=wp-tweets-pro'):admin_url('options-general.php?page=wp-to-twitter/wp-to-twitter.php');
+
+	echo "
+	<form method='post' action='$admin_url'>
+		<div><input type='hidden' name='_wpnonce' value='".wp_create_nonce('wp-to-twitter-nonce')."' /></div>
+		<div>";
+		if ( function_exists( 'wpt_pro_exists' ) ) {
+		echo "
+		<p>".
+		__('Please include your license key in your support request.','wp-to-twitter')
+		."</p>";
+		} else { 
+		echo "
+		<p>".
+		__('<strong>Please note</strong>: I do keep records of those who have donated, but if your donation came from somebody other than your account at this web site, you must note this in your message.','wp-to-twitter')
+		."</p>";
+		}
+		echo "
+		<p>
+		<code>".__('From:','wp-to-twitter')." \"$current_user->display_name\" &lt;$current_user->user_email&gt;</code>
+		</p>
+		<p>
+		<input type='checkbox' name='has_read_faq' id='has_read_faq' value='on' /> <label for='has_read_faq'>".__('I have read <a href="http://www.joedolson.com/articles/wp-to-twitter/support-2/">the FAQ for this plug-in</a>.','wp-to-twitter')." <span>(required)</span></label>
+		</p>
+		<p>
+		<input type='checkbox' name='has_donated' id='has_donated' value='on' $checked /> <label for='has_donated'>".__('I have <a href="http://www.joedolson.com/donate.php">made a donation to help support this plug-in</a>.','wp-to-twitter')."</label>
+		</p>
+		<p>
+		<label for='support_request'>Support Request:</label><br /><textarea name='support_request' id='support_request' cols='80' rows='10'>".stripslashes($request)."</textarea>
+		</p>
+		<p>
+		<input type='submit' value='".__('Send Support Request','wp-to-twitter')."' name='wpt_support' class='button-primary' />
+		</p>
+		<p>".
+		__('The following additional information will be sent with your support request:','wp-to-twitter')
+		."</p>
+		<div class='mc_support'>
+		".wpautop($data)."
+		</div>
+		</div>
+	</form>";
 }
