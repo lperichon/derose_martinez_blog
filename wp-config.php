@@ -17,7 +17,16 @@
 // read the credentials file
 $string = file_get_contents($_ENV['CRED_FILE'], false);
 if ($string == false) {
-    die('FATAL: Could not read credentials file');
+	$string = '{
+	   "MYSQLS":{
+	      "MYSQLS_DATABASE":"wp_blogmtz",
+	      "MYSQLS_PASSWORD":"password",
+	      "MYSQLS_PORT":"3306",
+	      "MYSQLS_HOSTNAME":"localhost",
+	      "MYSQLS_USERNAME":"wp_blogmtz"
+	   }
+	}';
+    //die('FATAL: Could not read credentials file');
 }
 
 // the file contains a JSON string, decode it and return an associative array
