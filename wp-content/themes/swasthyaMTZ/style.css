@@ -80,11 +80,37 @@ body {
 #access div {
 	margin: 0 7.6%;
 }
+
 #primary {
 	float: left;
 	margin: 0 -26.4% 0 0;
 	width: 100%;
 }
+
+.contact-wrap .contact-middle.full-width {
+    width: 100%;
+}
+
+.full-width #primary #content {
+  margin: 0;
+  width: 100%;
+}
+
+
+.singular .full-width .entry-content {
+    margin: 0;
+    width: 100%;
+}
+
+.singular .full-width .entry-content .sociable {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.singular .full-width .entry-header {
+    width: 50%;
+}
+
 #content {
 	margin: 0 34% 0 7.6%;
 	width: 58.4%;

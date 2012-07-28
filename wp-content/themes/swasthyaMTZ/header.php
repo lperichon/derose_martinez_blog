@@ -88,4 +88,3 @@
 
 <div class="contact-wrap">
   <div class="clear"></div>
-  <div class="contact-middle">
