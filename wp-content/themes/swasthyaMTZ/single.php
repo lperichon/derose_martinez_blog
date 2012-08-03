@@ -8,6 +8,8 @@
  */
 
 get_header(); ?>
+
+    <div class="contact-middle">
 		<div id="primary">
 			<div id="content" role="main">
 
@@ -27,5 +29,6 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
+	</div>
     
 <?php get_footer(); ?>
